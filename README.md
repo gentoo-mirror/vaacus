@@ -1,0 +1,3 @@
+# vaacus
+
+A Gentoo overlay.
