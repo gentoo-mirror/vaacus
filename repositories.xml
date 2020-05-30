@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
+<repositories xmlns="" version="1.0">
+  <repo quality="experimental" status="unofficial">
+    <name>vaacus</name>
+    <description lang="en">Choronzon's Vaacus overlay</description>
+    <homepage>https://gitlab.com/choronzon/vaacus.git</homepage>
+    <owner type="person">
+      <name>Choronzon</name>
+      <email>choronzon@riseup.net</email>
+    </owner>
+    <source type="git">https://gitlab.com/choronzon/vaacus.git</source>
+    <source type="git">git+ssh://git@gitlab.com/choronzon/vaacus.git</source>
+    <feed>https://gitlab.com/choronzon/vaacus/commits/master.atom</feed>
+  </repo>
+</repositories>
