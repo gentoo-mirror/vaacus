@@ -3,9 +3,11 @@
 
 EAPI=7
 
+inherit git-r3
+
 DESCRIPTION="Prints a fancy summary of the CPU."
 HOMEPAGE="https://github.com/Dr-Noob/cpufetch"
-SRC_URI="https://github.com/Dr-Noob/cpufetch.git"
+EGIT_REPO_URI="https://github.com/Dr-Noob/cpufetch.git"
 
 LICENSE="MIT"
 SLOT="0"
@@ -16,9 +18,7 @@ DEPEND=""
 RDEPEND="${DEPEND}"
 BDEPEND=""
 
-src_unpack() {
-	if [[ -n ${A} ]]; then
-		git-r3_fetch ${SRC_URI}
-		unpack ${A}
-	fi
+src_install() {
+	dobin cpufetch || die "Install failed!"
+	doman cpufetch.8 || die "Install failed!"
 }
