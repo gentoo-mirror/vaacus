@@ -19,14 +19,10 @@ RDEPEND="${DEPEND}"
 BDEPEND=""
 
 src_unpack() {
-	if [[ -n ${A} ]]; then
-		unpack ${A}
-	fi
+	default
 	mv pipes.sh-${PV} ${PN}-${PV}
 }
 
 src_install() {
-	if [[ -f Makefile ]] || [[ -f GNUmakefile ]] || [[ -f makefile ]] ; then
-		emake DESTDIR="${D}" PREFIX="/usr" install
-	fi
+	emake DESTDIR="${D}" PREFIX="/usr" install
 }
