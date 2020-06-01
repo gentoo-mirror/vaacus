@@ -24,6 +24,7 @@ src_unpack() {
 }
 
 src_compile() {
+	export -n GOCACHE XDG_CACHE_HOME
 	filter-flags -Wl,--as-needed
 	default
 }
