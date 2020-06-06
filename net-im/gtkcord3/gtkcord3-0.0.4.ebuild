@@ -19,5 +19,5 @@ RDEPEND="${DEPEND}"
 BDEPEND=""
 
 src_install() {
-	dobin gtkcord3
+	dobin gtkcord
 }
