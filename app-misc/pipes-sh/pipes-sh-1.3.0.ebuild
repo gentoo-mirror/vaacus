@@ -20,7 +20,7 @@ BDEPEND=""
 
 src_unpack() {
 	default
-	mv pipes.sh-${PV} ${PN}-${PV}
+	mv pipes.sh-${PV} ${P}
 }
 
 src_install() {
