@@ -22,7 +22,10 @@ src_compile(){
 
 src_install(){
 	dobin onyx
-	sed -i "s|/home/linus|/usr|g" EXAMPLE_onyx.json
-	mv EXAMPLE_onyx.json /usr/lib64/mozilla/native-messaging-hosts/onyx.json
+	mv EXAMPLE_onyx.json onyx.json
+	sed -i "s|/home/linus|/usr|g" onyx.json
+	dodir /usr/lib64/mozilla/native-messaging-hosts/
+	insinto /usr/lib64/mozilla/native-messaging-hosts/
+	doins onyx.json
 	einstalldocs
 }
