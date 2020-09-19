@@ -20,4 +20,3 @@ src_install() {
 		dobin cpufetch || die "Install failed!"
 		doman cpufetch.8 || die "Install failed!"
 }
-
