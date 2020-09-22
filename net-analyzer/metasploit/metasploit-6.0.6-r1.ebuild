@@ -85,7 +85,7 @@ RUBY_COMMON_DEPEND="virtual/ruby-ssl
 	dev-ruby/rex-registry
 	dev-ruby/rex-rop_builder
 	dev-ruby/rex-socket
-	dev-ruby/rex-sslscan::pentoo
+	dev-ruby/rex-sslscan
 	dev-ruby/rex-struct2
 	dev-ruby/rex-text
 	dev-ruby/rex-zip
