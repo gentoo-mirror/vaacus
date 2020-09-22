@@ -61,7 +61,7 @@ src_configure() {
 		--disable-native-tests \
 		--without-commoncrypto \
 		--disable-rexgen \
-		--with-openssl \
+		#--with-openssl \
 		--with-systemwide \
 		$(use_enable mpi) \
 		$(use_enable opencl) \
@@ -107,10 +107,10 @@ src_install() {
 	insinto /usr/share/john
 	doins run/*.py
 
-	if use opencl; then
-		insinto /etc/john
-		doins -r run/kernels
-	fi
+	#if use opencl; then
+	#	insinto /etc/john
+	#	doins -r run/kernels
+	#fi
 
 	# config files
 	insinto /etc/john
@@ -119,5 +119,5 @@ src_install() {
 	doins -r run/rules run/ztex
 
 	# documentation
-	dodoc doc/*
+	dodoc -r doc/*
 }
