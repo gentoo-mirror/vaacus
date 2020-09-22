@@ -22,7 +22,7 @@ IUSE=""
 # doesn't seem to actually run any tests
 RESTRICT=test
 
-PDEPEND="dev-libs/openssl"
+PDEPEND="dev-libs/libressl"
 ruby_add_rdepend "dev-ruby/rex-core
 	dev-ruby/rex-socket
 	dev-ruby/rex-text"
