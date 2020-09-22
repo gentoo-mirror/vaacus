@@ -17,12 +17,14 @@ LICENSE="BSD"
 
 SLOT="0"
 KEYWORDS="~amd64 ~arm ~x86"
-IUSE=""
+IUSE="libressl"
 
 # doesn't seem to actually run any tests
 RESTRICT=test
 
-PDEPEND="dev-libs/libressl"
+PDEPEND="
+	!libressl? ( dev-libs/openssl )
+	libressl? ( dev-libs/libressl )"
 ruby_add_rdepend "dev-ruby/rex-core
 	dev-ruby/rex-socket
 	dev-ruby/rex-text"

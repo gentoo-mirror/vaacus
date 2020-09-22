@@ -26,9 +26,11 @@ fi
 LICENSE="GPL-2"
 SLOT="0"
 #removed rexgen and commoncrypto
-IUSE="custom-cflags kerberos mpi opencl openmp pcap"
+IUSE="custom-cflags kerberos mpi opencl openmp pcap libressl"
 
-DEPEND=">=dev-libs/libressl-3.1.0
+DEPEND="
+	!libressl? ( >=dev-libs/openssl-1.0.1:0 )
+	libressl? ( >=dev-libs/libressl-3.1.0 )
 	mpi? ( virtual/mpi )
 	opencl? ( virtual/opencl )
 	kerberos? ( virtual/krb5 )

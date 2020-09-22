@@ -18,7 +18,7 @@ SLOT="$(ver_cut 1).$(ver_cut 2)"
 DESCRIPTION="Advanced framework for developing, testing, and using vulnerability exploit code"
 HOMEPAGE="http://www.metasploit.org/"
 LICENSE="BSD"
-IUSE="development +java nexpose oracle +pcap test"
+IUSE="development +java nexpose oracle +pcap test +ssl libressl"
 
 #multiple known bugs with tests reported upstream and ignored
 #http://dev.metasploit.com/redmine/issues/8418 - worked around (fix user creation when possible)
@@ -131,7 +131,10 @@ COMMON_DEPEND="dev-db/postgresql:*[server]
 	|| ( app-crypt/johntheripper-jumbo >=app-crypt/johntheripper-1.7.9-r1[-minimal(-)] )
 	dev-libs/libxml2
 	dev-libs/libxslt
-	dev-libs/libressl
+	ssl? (
+		!libressl? ( dev-libs/openssl:0= )
+		libressl? (	dev-libs/libressl:0= )
+	)
 	net-analyzer/nmap
 	net-libs/libpcap
 	sys-libs/zlib"
