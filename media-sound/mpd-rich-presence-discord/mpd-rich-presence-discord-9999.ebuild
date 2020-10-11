@@ -22,7 +22,7 @@ IUSE=""
 
 DEPEND="
 	media-libs/libmpdclient
-	net-im/discord-rpc
+	dev-libs/discord-rpc
 "
 
 RDEPEND="${DEPEND}"
