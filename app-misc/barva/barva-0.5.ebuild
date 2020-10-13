@@ -17,8 +17,8 @@ RDEPEND="${DEPEND}"
 BDEPEND=""
 
 src_install() {
-             dodir /usr/share/barva/
-             dobin barva
-             insinto /usr/share/barva/
-             doins scripts/*
+	dodir /usr/share/barva/
+	dobin barva
+	exeinto /usr/share/barva/
+	doexe scripts/*
 }
