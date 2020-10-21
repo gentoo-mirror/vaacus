@@ -3,14 +3,14 @@
 <repositories xmlns="" version="1.0">
   <repo quality="experimental" status="unofficial">
     <name>vaacus</name>
-    <description lang="en">Choronzon's Vaacus overlay</description>
-    <homepage>https://gitlab.com/choronzon/vaacus.git</homepage>
+    <description lang="en">Plexvola's Vaacus personal overlay</description>
+    <homepage>https://gitlab.com/plexvola/vaacus.git</homepage>
     <owner type="person">
-      <name>Choronzon</name>
-      <email>choronzon@riseup.net</email>
+      <name>Plexvola</name>
+      <email>thinkplex@riseup.net</email>
     </owner>
-    <source type="git">https://gitlab.com/choronzon/vaacus.git</source>
-    <source type="git">git+ssh://git@gitlab.com/choronzon/vaacus.git</source>
-    <feed>https://gitlab.com/choronzon/vaacus/commits/master.atom</feed>
+    <source type="git">https://gitlab.com/plexvola/vaacus.git</source>
+    <source type="git">git+ssh://git@gitlab.com/plexvola/vaacus.git</source>
+    <feed>https://gitlab.com/plexvola/vaacus/commits/master.atom</feed>
   </repo>
 </repositories>
