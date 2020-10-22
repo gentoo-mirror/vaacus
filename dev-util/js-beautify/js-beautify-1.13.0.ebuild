@@ -11,6 +11,7 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm"
 IUSE=""
+RESTRICT="network-sandbox"
 
 DEPEND="
 "
