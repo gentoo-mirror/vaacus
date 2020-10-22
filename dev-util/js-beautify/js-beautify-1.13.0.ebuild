@@ -11,7 +11,6 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64 ~arm"
 IUSE=""
-RESTRICT="~amd64"
 
 DEPEND="
 "
