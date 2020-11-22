@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>thinkplex@riseup.net</email>
+  </maintainer>
+  <use>
+    <flag name="terminal">Uses the terminal for rendering</flag>
+    <flag name="csfml">Uses SFML for rendering</flag>
+    <flag name="tcc">Compiles with tCC</flag>
+  </use>
+  <longdescription>
+    extremely small, completely public domain, no-dependency, no-file,
+    portable suckless anarcho-pacifist from-scratch 90s-style Doom clone that runs
+    everywhere, made for the benefit of all living beings
+  </longdescription>
+</pkgmetadata>
