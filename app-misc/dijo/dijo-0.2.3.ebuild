@@ -112,6 +112,7 @@ winapi-util-0.1.5
 winapi-x86_64-pc-windows-gnu-0.4.0
 ws2_32-sys-0.2.1
 xi-unicode-0.2.1
+dijo-0.2.3
 "
 
 inherit cargo
