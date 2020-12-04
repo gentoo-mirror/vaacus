@@ -1,0 +1,2 @@
+dev-lang/tcc
+media-libs/libcsfml
