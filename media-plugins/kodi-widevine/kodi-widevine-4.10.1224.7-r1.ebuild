@@ -28,5 +28,6 @@ S="${WORKDIR}/${CHROME_DIR}"
 
 src_install() {
 	insinto /usr/$(get_libdir)/kodi/cdm
-	doins /opt/google/chrome/WidevineCdm/_platform_specific/linux_x64/libwidevinecdm.so
+	pwd
+	doins WidevineCdm/_platform_specific/linux_x64/libwidevinecdm.so
 }
