@@ -6,8 +6,7 @@
     <name>Quentin Lombardo</name>
   </maintainer>
   <use>
-    <flag name="terminal">Terminal renderer (experimental)</flag>
-    <flag name="csfml">CSFML renderer</flag>
-    <flag name="tcc">Compile using the tiny c compiler</flag>
+    <flag name="viu">Use images instead of ASCII art.</flag>
+    <flag name="gpu">Use sys-apps/lshw to get GPU info.</flag>
   </use>
 </pkgmetadata>
