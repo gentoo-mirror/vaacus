@@ -1,9 +1,0 @@
-DEFINED_PHASES=unpack
-DESCRIPTION=CoreFreq is a CPU monitoring software designed for the 64-bits Processors.
-EAPI=7
-HOMEPAGE=https://github.com/cyring/CoreFreq
-KEYWORDS=~amd64
-LICENSE=GPL-2
-SLOT=0
-SRC_URI=https://github.com/cyring/CoreFreq/archive/refs/tags/1.84.tar.gz -> corefreq-1.84.tar.gz
-_md5_=5173c2453a7da04ac3d2331ac0059014
