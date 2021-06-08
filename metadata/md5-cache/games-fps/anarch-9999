@@ -1,0 +1,15 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile install unpack
+DEPEND=tcc? ( dev-lang/tcc ) sdl? ( media-libs/libsdl2 ) csfml? ( media-libs/libcsfml )
+DESCRIPTION=extremely small 90s-style Doom clone that runs everywhere
+EAPI=7
+HOMEPAGE=https://drummyfish.gitlab.io/anarch/
+INHERIT=git-r3
+IUSE=sdl terminal csfml test tcc
+LICENSE=CC0-1.0
+PROPERTIES=live
+RDEPEND=sdl? ( media-libs/libsdl2 ) csfml? ( media-libs/libcsfml )
+REQUIRED_USE=^^ ( sdl terminal csfml test ) alpha? ( !tcc !csfml )
+SLOT=0
+_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_md5_=871d27530a7874f0b9342a16e8eccace

@@ -1,0 +1,13 @@
+DEFINED_PHASES=compile install
+DEPEND=tcc? ( dev-lang/tcc ) sdl? ( media-libs/libsdl2 ) csfml? ( media-libs/libcsfml )
+DESCRIPTION=extremely small 90s-style Doom clone that runs everywhere
+EAPI=7
+HOMEPAGE=https://drummyfish.gitlab.io/anarch/
+IUSE=sdl terminal csfml test tcc
+KEYWORDS=~amd64
+LICENSE=CC0-1.0
+RDEPEND=sdl? ( media-libs/libsdl2 ) csfml? ( media-libs/libcsfml )
+REQUIRED_USE=^^ ( sdl terminal csfml test ) alpha? ( !tcc !csfml )
+SLOT=0
+SRC_URI=https://gitlab.com/drummyfish/anarch/-/archive/1.0/anarch-1.0.tar.gz
+_md5_=871d27530a7874f0b9342a16e8eccace

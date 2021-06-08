@@ -1,0 +1,9 @@
+# This file is deprecated as per GLEP 56 in favor of metadata.xml.
+# Please add your descriptions to your package's metadata.xml ONLY.
+# * generated automatically using pmaint *
+
+app-misc/uwufetch:gpu - Use sys-apps/lshw to get GPU info.
+app-misc/uwufetch:viu - Use images instead of ASCII art.
+games-fps/anarch:csfml - CSFML renderer
+games-fps/anarch:tcc - Compile using the tiny c compiler
+games-fps/anarch:terminal - Terminal renderer (experimental)
