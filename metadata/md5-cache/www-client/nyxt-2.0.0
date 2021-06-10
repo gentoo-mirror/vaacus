@@ -1,0 +1,12 @@
+BDEPEND=dev-lisp/sbcl
+DEFINED_PHASES=-
+DEPEND=net-libs/webkit-gtk net-libs/glib-networking gnome-base/gsettings-desktop-schemas sys-libs/libfixposix X? ( x11-misc/xclip ) spell? ( app-text/enchant )
+DESCRIPTION=Nyxt - the internet on your terms.
+EAPI=7
+HOMEPAGE=https://nyxt.atlas.engineer/
+IUSE=X spell
+KEYWORDS=~amd64
+LICENSE=BSD CC-BY-SA-3.0
+SLOT=0
+SRC_URI=https://github.com/atlas-engineer/nyxt/archive/refs/tags/2.0.0.tar.gz -> nyxt-2.0.0.tar.gz
+_md5_=cac4679aed91b7353943aa8a6a899d4e
