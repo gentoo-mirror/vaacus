@@ -5,11 +5,16 @@ EAPI=7
 
 DESCRIPTION="Nyxt - the internet on your terms."
 HOMEPAGE="https://nyxt.atlas.engineer/"
-SRC_URI="https://github.com/atlas-engineer/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+if [[ "${PV}" == *9999* ]]; then
+	inherit git-r3
+	EGIT_REPO_URI="https://github.com/atlas-engineer/nyxt.git"
+else
+	SRC_URI="https://github.com/atlas-engineer/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
+	KEYWORDS="~amd64"
+fi
 
 LICENSE="BSD CC-BY-SA-3.0"
 SLOT="0"
-KEYWORDS="~amd64"
 IUSE="X spell"
 
 RDEPEND=""
@@ -22,3 +27,7 @@ DEPEND="${RDEPEND}
 		spell? ( app-text/enchant )"
 
 BDEPEND="dev-lisp/sbcl"
+
+src_compile(){
+	emake all || die "emake failed"
+}
