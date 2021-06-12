@@ -25,9 +25,13 @@ DEPEND="${RDEPEND}
 		sys-libs/libfixposix
 		X? ( x11-misc/xclip )
 		spell? ( app-text/enchant )"
+BDEPEND=">=dev-lisp/sbcl-2.0.0"
 
-BDEPEND="dev-lisp/sbcl"
+src_prepare(){
+	default
+	ls _build/quicklisp-client
+}
 
 src_compile(){
-	emake all || die "emake failed"
+	emake all || die emake failed
 }
