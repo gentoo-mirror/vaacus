@@ -1,5 +1,5 @@
-BDEPEND=dev-lisp/sbcl >=dev-vcs/git-1.8.2.1[curl]
-DEFINED_PHASES=compile unpack
+BDEPEND=>=dev-lisp/sbcl-2.0.0 >=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=compile prepare unpack
 DEPEND=net-libs/webkit-gtk net-libs/glib-networking gnome-base/gsettings-desktop-schemas sys-libs/libfixposix X? ( x11-misc/xclip ) spell? ( app-text/enchant )
 DESCRIPTION=Nyxt - the internet on your terms.
 EAPI=7
@@ -10,4 +10,4 @@ LICENSE=BSD CC-BY-SA-3.0
 PROPERTIES=live
 SLOT=0
 _eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
-_md5_=cc1dff177e79ef1cea564a3ac82bf14d
+_md5_=c6c6b9fca294e53e8da4080b5df78f53
