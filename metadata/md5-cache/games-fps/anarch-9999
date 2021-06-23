@@ -11,5 +11,5 @@ PROPERTIES=live
 RDEPEND=sdl? ( media-libs/libsdl2 ) csfml? ( media-libs/libcsfml )
 REQUIRED_USE=^^ ( sdl terminal csfml test ) alpha? ( !tcc !csfml )
 SLOT=0
-_eclasses_=git-r3	b8e8c92aa5fe8df7187e466138eb4e52
+_eclasses_=git-r3	cc875b0c1e9b3bdac1af0f82f3ba29da
 _md5_=871d27530a7874f0b9342a16e8eccace
