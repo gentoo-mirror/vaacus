@@ -3,9 +3,8 @@
 
 EAPI=7
 PYTHON_COMPAT=( python3_{9,10})
-PLOCALES="fr nl"
 
-inherit python-r1 autotools git-r3 l10n
+inherit python-r1 autotools git-r3
 
 MY_PN="${PN/d/D}"
 
@@ -27,14 +26,6 @@ DOCS="AUTHORS COPYING INSTALL NEWS README README.md"
 
 src_prepare() {
 	default
-
-	local loc_dir="po"
-	l10n_find_plocales_changes "${loc_dir}" "" ".po"
-	rm_locale() {
-		rm -vf "${loc_dir}/${1}.po" || die
-	}
-	l10n_for_each_disabled_locale_do rm_locale
-
 	eautoreconf
 }
 
