@@ -12,6 +12,7 @@ net-analyzer/ignorant 9999: ignorant allows you to check if a phone number is us
 net-im/6cord 9.6: Discord, TUI and SIXEL.
 net-im/discordlogin 0.0.1: An automated Discord token grabber, for use with gtkcord3
 net-im/gtkcord3 0.0.4: A Gtk3 Discord client in Golang
+net-libs/libqmail 1.1: libqmail is a library of general purpose APIs extracted from qmail
 sys-libs/libfixposix 0.4.3: Thin wrapper over POSIX syscalls
 www-apps/overbitenx 0.9.2.1: Because Firefox isn't complete without Gopherspace.
 www-client/nyxt 9999: Nyxt - the internet on your terms.
