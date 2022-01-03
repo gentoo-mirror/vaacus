@@ -29,5 +29,5 @@ src_install() {
 	insinto "/opt/${PN}"
 	doins -r "."
 	fperms +x "/opt/${PN}/wassabee"
-	dosym "/opt/${PN}/wassabee"
+	dosym "/opt/${PN}/wassabee" "/usr/bin/wassabee"
 }
