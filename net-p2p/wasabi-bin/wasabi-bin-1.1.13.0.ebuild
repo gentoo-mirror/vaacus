@@ -28,6 +28,6 @@ src_unpack() {
 src_install() {
 	insinto "/opt/${PN}"
 	doins -r "."
-	make_wrapper "wassabee" "/opt/${PN}/wassabee"
-	fperms +x "/usr/bin/wassabee"
+	fperms +x "/opt/${PN}/wassabee"
+	dosym "/opt/${PN}/wassabee" "/usr/bin/wassabee"
 }
