@@ -3,6 +3,8 @@
 
 EAPI=8
 
+inherit wrapper
+
 MY_PN=${PN/-bin/}
 MY_PV=${PV%.*}
 
@@ -26,5 +28,6 @@ src_unpack() {
 src_install() {
 	insinto "/opt/${PN}"
 	doins -r "."
-	dosym "/opt/${PN}/wassabee" "/usr/bin/wassabee"
+	make_wrapper "wassabee" "/opt/${PN}/wassabee"
+	fperms +x "/usr/bin/wassabee"
 }
