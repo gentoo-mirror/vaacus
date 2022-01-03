@@ -1,0 +1,9 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Open-source, non-custodial, privacy focused bitcoin wallet.
+EAPI=8
+HOMEPAGE=https://wasabiwallet.io
+KEYWORDS=~amd64
+LICENSE=MIT
+SLOT=0
+SRC_URI=https://github.com/zkSNACKs/WalletWasabi/releases/download/v1.1.13.0/Wasabi-1.1.13.tar.gz -> wasabi-bin-1.1.13.0.tar.gz
+_md5_=44ce608aafff674fcebd09bce24a9189
