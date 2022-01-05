@@ -1,4 +1,4 @@
-# Copyright 2021 Gentoo Authors
+# Copyright 2021-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -16,6 +16,12 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS=""
 
-DEPEND=""
+DEPEND="
+	dev-python/termcolor
+	dev-python/beautifulsoup4
+	dev-python/httpx
+	dev-python/trio
+	dev-python/tqdm
+"
 RDEPEND="${DEPEND}"
 BDEPEND=""
