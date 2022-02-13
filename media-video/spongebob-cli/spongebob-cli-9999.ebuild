@@ -3,6 +3,8 @@
 
 EAPI=8
 
+PATCHES=( "${FILESDIR}/${P}-func.patch" )
+
 PYTHON_COMPAT=( python3_{8..10} )
 inherit git-r3 distutils-r1
 DESCRIPTION="Watch classic spongebob from the terminal!"
