@@ -9,7 +9,7 @@ inherit distutils-r1
 DESCRIPTION="Utilities for the visualization, and visual analysis, of financial data"
 HOMEPAGE="https://github.com/dhaitz/mplcyberpunk"
 SRC_URI="https://github.com/dhaitz/mplcyberpunk/archive/refs/tags/v${PV}.tar.gz
--> ${P}"
+-> ${P}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
