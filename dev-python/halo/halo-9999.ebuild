@@ -13,6 +13,11 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 
-DEPEND=""
+DEPEND="
+	dev-python/log-symbols
+	dev-python/termcolor
+	dev-python/colorama
+	dev-python/six
+"
 RDEPEND="${DEPEND}"
 BDEPEND=""
