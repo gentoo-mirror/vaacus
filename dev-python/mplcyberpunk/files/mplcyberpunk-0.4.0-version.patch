@@ -1,0 +1,17 @@
+diff --color -s '--color=auto' -u a/setup.py b/setup.py
+--- a/setup.py	2022-02-16 19:50:42.734532665 +0100
++++ b/setup.py	2022-02-16 19:52:17.647525983 +0100
+@@ -22,12 +22,7 @@
+    },
+     install_requires=['matplotlib'],
+ 
+-    # Derive version from git. If HEAD is at the tag, the version will be the tag itself.
+-    version_config={
+-        "version_format": "{tag}.dev{sha}",
+-        "starting_version": "v0.0.1"
+-    },
+-    setup_requires=['better-setuptools-git-version'],
++    version="0.4.0",
+ 
+     classifiers=[
+         'Framework :: Matplotlib', 

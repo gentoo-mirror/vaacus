@@ -3,6 +3,7 @@
 
 EAPI=8
 
+PATCHES=( ${FILESDIR}/${P}-version.patch )
 PYTHON_COMPAT=( python3_{8..10} )
 inherit distutils-r1
 
