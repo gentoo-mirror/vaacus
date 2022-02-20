@@ -18,3 +18,8 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""
+
+src_unpack(){
+	default
+	mv log_symbols-${PV} ${P}
+}
