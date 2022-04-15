@@ -1,3 +1,4 @@
+app-laptop/sys76-kb 0.3.1: RGB keyboard controller for System76 laptops
 app-misc/barva 0.5: An audio visualizer that pulses the background of your terminal.
 app-misc/corefreq 1.86: CoreFreq is a CPU monitoring software designed for the 64-bits Processors.
 app-misc/dijo 0.2.7: Scriptable, curses-based, digital habit tracker
