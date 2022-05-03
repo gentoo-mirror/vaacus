@@ -13,10 +13,10 @@ EGIT_REPO_URI="https://github.com/facturio/facturio.git"
 
 LICENSE="AGPL-3"
 SLOT="0"
-KEYWORDS=""
+KEYWORDS="~amd64"
 
 DEPEND="
-	dev-python/pygoject
+	dev-python/pygobject
 	sci-geosciences/geopy
 	dev-python/borb
 "
