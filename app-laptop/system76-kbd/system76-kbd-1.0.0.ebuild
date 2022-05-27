@@ -76,7 +76,7 @@ CRATES="
 
 inherit cargo
 
-DESCRIPTION="system76-kbd"
+DESCRIPTION="System76 keyboard leds daemon."
 # Double check the homepage as the cargo_metadata crate
 # does not provide this value so instead repository is used
 HOMEPAGE="https://gitlab.com/plexvola/system76-kbd"
