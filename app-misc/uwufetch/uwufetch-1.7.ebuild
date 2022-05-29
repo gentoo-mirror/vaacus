@@ -1,4 +1,4 @@
-# Copyright 2021 Gentoo Authors
+# Copyright 2021-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -20,15 +20,3 @@ DEPEND="
 
 RDEPEND="${DEPEND}"
 BDEPEND=""
-
-src_compile() {
-	default
-	emake PREFIX="${D}" man
-}
-
-src_install() {
-	dodir /usr/bin
-	dodir /usr/lib/${PN}
-	dodir /usr/share/man/man1
-	default
-}
