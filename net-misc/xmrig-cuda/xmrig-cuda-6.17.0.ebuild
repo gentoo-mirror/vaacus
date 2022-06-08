@@ -14,7 +14,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 
 DEPEND="
-	net-misc/xmrig
 	>=dev-util/nvidia-cuda-toolkit-8.0
 "
 RDEPEND="${DEPEND}"
