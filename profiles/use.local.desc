@@ -7,5 +7,3 @@ app-misc/uwufetch:viu - Use images instead of ASCII art.
 games-fps/anarch:csfml - CSFML renderer
 games-fps/anarch:tcc - Compile using the tiny c compiler
 games-fps/anarch:terminal - Terminal renderer (experimental)
-gui-apps/wlogout:fish-completion - Enable fish completion support
-gui-apps/wlogout:transparency - Enable transparency support via gtk-layer-shell
