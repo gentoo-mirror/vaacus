@@ -1,7 +1,7 @@
 diff --git a/a/barva/__main__.py b/b/barva/__main__.py
 index 2262377..cf45a51 100755
---- a/a/barva/__main__.py
-+++ b/b/barva/__main__.py
+--- a/barva/__main__.py
++++ b/barva/__main__.py
 @@ -5,12 +5,14 @@ from barva.visualizers.pulse import PulseHexVisualizer
  from barva.visualizers.pulse import PulseTerminalFireVisualizer
  from barva.visualizers.pulse import PulseTerminalsVisualizer
@@ -21,7 +21,7 @@ diff --git a/b/barva/utils/keyboard.py b/b/barva/utils/keyboard.py
 new file mode 100644
 index 0000000..108cd28
 --- /dev/null
-+++ b/b/barva/utils/keyboard.py
++++ b/barva/utils/keyboard.py
 @@ -0,0 +1,4 @@
 +from barva.utils import color
 +
@@ -29,8 +29,8 @@ index 0000000..108cd28
 +    return color.to_hex(r, g, b).strip('#')
 diff --git a/a/barva/visualizers/pulse.py b/b/barva/visualizers/pulse.py
 index f1b4d11..8fb0c21 100644
---- a/a/barva/visualizers/pulse.py
-+++ b/b/barva/visualizers/pulse.py
+--- a/barva/visualizers/pulse.py
++++ b/barva/visualizers/pulse.py
 @@ -16,6 +16,7 @@ from numpy import sqrt
  from barva.sampling import SamplingRequirements
  from barva.utils import color
