@@ -19,5 +19,6 @@ BDEPEND=""
 
 src_install() {
 	dodir /usr/share/icons
+	insinto /usr/share/icons/
 	doins -r Zorin*
 }
