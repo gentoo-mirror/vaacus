@@ -7,7 +7,7 @@ DESCRIPTION="The Zorin OS desktop theme provided in a variety of color combinati
 HOMEPAGE="https://zorin.com/"
 SRC_URI="https://github.com/ZorinOS/${PN}/archive/refs/tags/${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE="GPL-2.0"
+LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="~amd64"
 
