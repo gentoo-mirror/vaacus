@@ -3,7 +3,6 @@
 
 EAPI=8
 
-inherit xdg
 
 DESCRIPTION="The Zorin OS icon theme provided in a variety of color combinations."
 HOMEPAGE="https://zorin.com/"
@@ -18,7 +17,6 @@ RDEPEND="${DEPEND}"
 BDEPEND=""
 
 src_install() {
-	dodir /usr/share/icons
 	insinto /usr/share/icons/
 	doins -r Zorin*
 }
