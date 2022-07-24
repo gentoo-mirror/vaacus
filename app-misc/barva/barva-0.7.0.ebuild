@@ -15,9 +15,6 @@ SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
 
-PATCHES=("${FILESDIR}/${PN}-0.7.0-kbd.patch")
-
-
 DEPEND="media-sound/pulseaudio"
 RDEPEND="${DEPEND}"
 BDEPEND=""
