@@ -1,0 +1,19 @@
+diff --git a/setup.py b/setup.py
+index e0c97e7..3a22a00 100644
+--- a/setup.py
++++ b/setup.py
+@@ -17,13 +17,7 @@ VERSION = "1.9.5"
+ 
+ setup(
+     name="auto-cpufreq",
+-    setuptools_git_versioning={
+-        "starting_version": VERSION,
+-        "template": "{tag}+{sha}",
+-        "dev_template": "{tag}+{sha}",
+-        "dirty_template": "{tag}+{sha}.post{ccount}.dirty"
+-    },
+-    setup_requires=["setuptools-git-versioning"],
++    version=VERSION,
+     description="Automatic CPU speed & power optimizer for Linux",
+     long_description=readme,
+     author="Adnan Hodzic",
