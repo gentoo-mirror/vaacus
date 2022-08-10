@@ -19,6 +19,7 @@ net-analyzer/ignorant 9999: ignorant allows you to check if a phone number is us
 net-misc/xmrig 6.17.0: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2 CPU/GPU miner
 net-misc/xmrig-cuda 6.17.0: NVIDIA CUDA plugin for XMRig miner
 net-p2p/wasabi-bin 1.1.13.0: Open-source, non-custodial, privacy focused bitcoin wallet.
+sys-power/auto-cpufreq 1.9.4: Automatic CPU speed & power optimizer for Linux
 sys-power/system76-power 9999: System76 Power Management
 www-apps/overbitenx 0.9.2.1: Because Firefox isn't complete without Gopherspace.
 x11-misc/mimeo 2021.2: Open files by MIME-type or file name using regular expressions.
