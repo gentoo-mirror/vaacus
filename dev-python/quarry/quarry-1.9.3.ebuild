@@ -21,6 +21,7 @@ KEYWORDS="~amd64"
 RDEPEND="
 	dev-python/twisted
 	dev-python/cryptography
+	dev-python/cached-property
 "
 BDEPEND="
 	test? (
