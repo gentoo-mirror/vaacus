@@ -22,6 +22,9 @@ RDEPEND="
 	dev-python/twisted
 	dev-python/cryptography
 	dev-python/cached-property
+	dev-python/bitstring
+	dev-python/pyopenssl
+	dev-python/service_identity
 "
 BDEPEND="
 	test? (
