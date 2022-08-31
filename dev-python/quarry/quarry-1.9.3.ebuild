@@ -11,9 +11,10 @@ DESCRIPTION=""
 HOMEPAGE="
 	https://pypi.org/project/quarry/
 "
-SRC_URI=""
+SRC_URI="https://github.com/barneygale/${PN}/archive/refs/tags/v${PV}.tar.gz ->
+${P}.tar.gz"
 
-LICENSE=""
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 
@@ -23,6 +24,7 @@ RDEPEND="
 "
 BDEPEND="
 	test? (
+	dev-python/pytest
 	)
 "
 
