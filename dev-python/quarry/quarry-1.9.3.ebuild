@@ -7,7 +7,8 @@ DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_{7..11} )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION=" Python library that implements the Minecraft network protocol and data
+types"
 HOMEPAGE="
 	https://pypi.org/project/quarry/
 "
