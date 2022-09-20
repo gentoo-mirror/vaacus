@@ -19,6 +19,7 @@ KEYWORDS="~amd64"
 
 RDEPEND="
 	dev-python/toml
+	dev-python/typeguard
 "
 BDEPEND=""
 
