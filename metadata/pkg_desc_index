@@ -11,6 +11,7 @@ dev-python/jedi-language-server 0.37.0: A Python language server exclusively for
 dev-python/log-symbols 0.0.14: Colored symbols for various log levels for Python
 dev-python/mplcyberpunk 0.4.0: Utilities for the visualization, and visual analysis, of financial data
 dev-python/mplfinance 0.12: Utilities for the visualization, and visual analysis, of financial data
+dev-python/pygls 0.12.1: a pythonic generic language server (pronounced like "pie glass").
 dev-python/quarry 1.9.3: Python library that implements the Minecraft network protocol and data types
 dev-python/spinners 0.0.24: Spinners for terminal
 games-fps/anarch 1.0 9999: extremely small 90s-style Doom clone that runs everywhere
