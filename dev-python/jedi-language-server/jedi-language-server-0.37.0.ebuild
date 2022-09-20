@@ -4,7 +4,7 @@
 EAPI=8
 
 DISTUTILS_USE_PEP517=poetry
-PYTHON_COMPAT=( python3_{7..10} )
+PYTHON_COMPAT=( python3_{8..10} )
 inherit distutils-r1
 
 DESCRIPTION="A Python language server exclusively for Jedi."
@@ -21,6 +21,7 @@ RDEPEND="
 	dev-python/jedi
 	dev-python/pygls
 	dev-python/pydantic
+	dev-python/docstring-to-markdown
 "
 BDEPEND="
 	test? (
