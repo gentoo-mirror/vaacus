@@ -17,9 +17,24 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 
-RDEPEND=""
-BDEPEND="
+RDEPEND="
 	dev-python/jedi
+	dev-python/pygls
+	dev-python/pydantic
+"
+BDEPEND="
+	test? (
+		dev-python/tox
+		dev-python/pytest
+		dev-python/isort
+		dev-python/pylint
+		dev-python/mypy
+		dev-python/black
+		dev-python/pyhamcrest
+		dev-python/python-lsp-jsonrpc
+		dev-python/pytest-cov
+
+	)
 "
 
 distutils_enable_tests pytest
