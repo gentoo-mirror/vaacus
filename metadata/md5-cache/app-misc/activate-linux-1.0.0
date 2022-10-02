@@ -7,5 +7,5 @@ KEYWORDS=~amd64
 LICENSE=GPL-3
 RDEPEND=x11-libs/cairo x11-libs/libXi x11-libs/libX11 x11-base/xorg-proto x11-libs/libXt x11-libs/libXfixes x11-libs/libXinerama
 SLOT=0
-SRC_URI=https://github.com/MrGlockenspiel/activate-linux/archive/refs/tags/v0.0.2.tar.gz -> activate-linux-0.0.2.tar.gz
+SRC_URI=https://github.com/MrGlockenspiel/activate-linux/archive/refs/tags/v1.0.0.tar.gz -> activate-linux-1.0.0.tar.gz
 _md5_=c79a156f7e93f23f0a6f7c0d8fd34398
