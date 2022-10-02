@@ -14,7 +14,7 @@ DESCRIPTION="Mopidy extension for playing music from jellyfin"
 HOMEPAGE="https://pypi.org/project/Mopidy-Jellyfin"
 SRC_URI="https://files.pythonhosted.org/packages/d8/91/4e64134d357262f378c90efe133ca26c0038d4fc55a22e15c121bbc320a8/${MY_PN}-${PV}.tar.gz -> ${P}.tar.gz"
 
-LICENSE=""
+LICENSE="Apache-2.0"
 SLOT="0"
 KEYWORDS="~amd64"
 
