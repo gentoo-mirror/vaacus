@@ -32,3 +32,5 @@ src_unpack() {
 	default
 	mv ${MY_PN}-${PV} ${P}
 }
+
+distutils_enable_tests pytest
