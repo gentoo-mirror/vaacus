@@ -11,7 +11,8 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 
-IUSE="|| ( X wayland )"
+IUSE="X wayland"
+REQUIRED_USE="|| ( X wayland )"
 
 DEPEND="
 	X? (
