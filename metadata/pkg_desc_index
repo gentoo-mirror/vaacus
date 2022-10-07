@@ -29,6 +29,6 @@ net-p2p/wasabi-bin 1.1.13.0: Open-source, non-custodial, privacy focused bitcoin
 sys-power/auto-cpufreq 1.9.4: Automatic CPU speed & power optimizer for Linux
 sys-power/system76-power 9999: System76 Power Management
 www-apps/overbitenx 0.9.2.1: Because Firefox isn't complete without Gopherspace.
-x11-misc/mimeo 2021.2: Open files by MIME-type or file name using regular expressions.
+x11-misc/mimeo 2021.2 2022.7: Open files by MIME-type or file name using regular expressions.
 x11-themes/zorin-desktop-themes 3.4.4: The Zorin OS desktop theme provided in a variety of color combinations.
 x11-themes/zorin-icon-themes 2.9.8: The Zorin OS icon theme provided in a variety of color combinations.
