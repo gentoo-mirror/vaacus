@@ -23,6 +23,7 @@ media-sound/mopidy-mpd 3.3.0: Mopidy extension for controlling playback from MPD
 media-sound/mopidy-mpris 3.0.3: Mopidy extension for controlling Mopidy through the MPRIS D-Bus interface
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
 net-analyzer/ignorant 9999: ignorant allows you to check if a phone number is used on different sites
+net-im/cinny-bin 2.2.2: Yet another matrix client for desktop
 net-misc/xmrig 6.17.0: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2 CPU/GPU miner
 net-misc/xmrig-cuda 6.17.0: NVIDIA CUDA plugin for XMRig miner
 net-p2p/wasabi-bin 1.1.13.0: Open-source, non-custodial, privacy focused bitcoin wallet.
