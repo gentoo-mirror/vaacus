@@ -15,6 +15,7 @@ dev-python/mplfinance 0.12: Utilities for the visualization, and visual analysis
 dev-python/pygls 0.12.1: a pythonic generic language server (pronounced like "pie glass").
 dev-python/quarry 1.9.3: Python library that implements the Minecraft network protocol and data types
 dev-python/spinners 0.0.24: Spinners for terminal
+dev-python/xeuledoc 2.1: Fetch information about a public Google document.
 games-fps/anarch 1.0 9999: extremely small 90s-style Doom clone that runs everywhere
 games-rpg/blablaland 1.2.2: Blablaland
 games-rpg/blablaland-bin 1.2.2: Blablaland
