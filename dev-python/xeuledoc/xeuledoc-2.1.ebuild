@@ -11,7 +11,7 @@ DESCRIPTION="Fetch information about a public Google document."
 HOMEPAGE="https://malfrats.industries/"
 SRC_URI="https://files.pythonhosted.org/packages/52/0f/092297b8056ce2c8eeac5cd64fb018da19bf37a5b50b3d318f3a525853d2/${P}.tar.gz"
 
-LICENSE=""
+LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="~amd64"
 
