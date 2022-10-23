@@ -18,13 +18,12 @@ KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 
 ruby_add_rdepend "
-	dev-ruby/builder
-	dev-ruby/erubi
-	dev-ruby/gssapi
-	dev-ruby/gyoku
-	dev-ruby/httpclient
-	dev-ruby/logging
-	dev-ruby/nori
-	dev-ruby/rexml
-	dev-ruby/rubyntlm
+	>=dev-ruby/builder-2.1.2
+	=dev-ruby/erubi-1*
+	=dev-ruby/gssapi-1*
+	=dev-ruby/gyoku-1*
+	>=dev-ruby/httpclient-2.2.0.2
+	>=dev-ruby/logging-1.6.1
+	=dev-ruby/nori-2*
+	>=dev-ruby/rubyntlm-0.6.3
 "
