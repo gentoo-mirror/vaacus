@@ -17,4 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 
-ruby_add_bdepend "dev-ruby/nokogiri"
+ruby_add_bdepend "
+	>=dev-ruby/nokogiri-1.4.0
+"
