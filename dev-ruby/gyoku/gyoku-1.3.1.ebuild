@@ -19,4 +19,7 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 
-ruby_add_rdepend "dev-ruby/builder"
+ruby_add_rdepend "
+	>=dev-ruby/builder-2.1.2
+	=dev-ruby/rexml-3*
+"
