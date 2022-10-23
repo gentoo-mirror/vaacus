@@ -17,4 +17,6 @@ SLOT="0"
 KEYWORDS="~amd64 ~x86"
 IUSE="doc test"
 
-ruby_add_rdepend "dev-ruby/ffi"
+ruby_add_rdepend "
+	>=dev-ruby/ffi-1.0.1
+"
