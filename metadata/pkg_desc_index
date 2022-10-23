@@ -20,6 +20,8 @@ dev-ruby/gssapi 1.3.1: A FFI wrapper around the system GSSAPI library.
 dev-ruby/gyoku 1.3.1: Gyoku translates Ruby Hashes to XML
 dev-ruby/logging 2.3.1: A flexible logging library for use in Ruby programs.
 dev-ruby/nori 2.6.0: XML to Hash translator
+dev-ruby/winrm 2.3.6: Ruby library for Windows Remote Management
+dev-ruby/winrm-fs 1.3.5: Ruby library for file system operations via Windows Remote Management
 games-fps/anarch 1.0 9999: extremely small 90s-style Doom clone that runs everywhere
 games-rpg/blablaland-bin 1.2.2: Blablaland
 media-gfx/viu 1.3.0: Simple terminal image viewer written in Rust.
