@@ -4,6 +4,8 @@
 EAPI=8
 USE_RUBY="ruby24 ruby25 ruby26 ruby27"
 
+RUBY_FAKEGEM_EXTRAINSTALL="./evil-winrm.rb"
+
 inherit ruby-fakegem
 
 DESCRIPTION="The ultimate WinRM shell for hacking/pentesting"
