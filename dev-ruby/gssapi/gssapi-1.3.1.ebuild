@@ -8,7 +8,7 @@ RUBY_FAKEGEM_EXTRADOC="README.md Changelog.md"
 
 inherit ruby-fakegem
 
-DESCRIPTION="A flexible logging library for use in Ruby programs."
+DESCRIPTION="A FFI wrapper around the system GSSAPI library."
 HOMEPAGE="https://rubygems.org/gems/gssapi"
 
 LICENSE="MIT"

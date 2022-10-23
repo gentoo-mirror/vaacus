@@ -10,7 +10,7 @@ RUBY_FAKEGEM_RECIPE_TEST="rspec3"
 
 inherit ruby-fakegem
 
-DESCRIPTION="A flexible logging library for use in Ruby programs."
+DESCRIPTION="Gyoku translates Ruby Hashes to XML"
 HOMEPAGE="https://rubygems.org/gems/gyoku"
 
 LICENSE="MIT"
