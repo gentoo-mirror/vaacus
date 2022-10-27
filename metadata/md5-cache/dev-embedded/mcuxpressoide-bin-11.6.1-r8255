@@ -1,0 +1,13 @@
+BDEPEND=virtual/pkgconfig
+DEFINED_PHASES=install postinst postrm unpack
+DESCRIPTION=The MCUXpresso IDE.
+EAPI=8
+HOMEPAGE=https://www.nxp.com/design/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE
+INHERIT=unpacker udev
+KEYWORDS=~amd64
+LICENSE=LA_OPT_NXP_Software_License
+RESTRICT=fetch
+SLOT=0
+SRC_URI=mcuxpressoide-11.6.1_8255.x86_64.deb.bin
+_eclasses_=multiprocessing	b4e253ab22cef7b1085e9b67c7a3b730	toolchain-funcs	441f754fd75cd4fd1fa06fbc17da6144	multilib	5ca4e49abed8e3a2f7b56920eadee157	unpacker	bc57272a0491765c71d973c8cfd35063	udev	eec0bbab06977f1cfc5597269c1fa152
+_md5_=e9f51d39b2c34f773daf6ea721910cda
