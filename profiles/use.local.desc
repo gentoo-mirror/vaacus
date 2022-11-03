@@ -4,6 +4,7 @@
 
 app-misc/uwufetch:gpu - Use sys-apps/lshw to get GPU info.
 app-misc/uwufetch:viu - Use images instead of ASCII art.
+games-action/polymc:lto - Enable link-time optimization
 games-fps/anarch:csfml - CSFML renderer
 games-fps/anarch:tcc - Compile using the tiny c compiler
 games-fps/anarch:terminal - Terminal renderer (experimental)
