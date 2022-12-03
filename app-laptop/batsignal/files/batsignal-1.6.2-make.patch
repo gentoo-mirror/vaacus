@@ -1,0 +1,27 @@
+diff --git a/Makefile b/Makefile
+index 7ea761d..2e63e1b 100644
+--- a/Makefile
++++ b/Makefile
+@@ -15,21 +15,16 @@ CUT = cut
+ 
+ VERSION != $(GREP) VERSION version.h | $(CUT) -d \" -f2
+ 
+-PREFIX = /usr/local
+-
+ MANPREFIX.$(PREFIX)=$(PREFIX)/share/man
+ MANPREFIX./usr/local=/usr/local/man
+ MANPREFIX.=/usr/share/man
+ MANPREFIX=$(MANPREFIX.$(PREFIX))
+ 
+ INCLUDES != pkg-config --cflags libnotify
+-CFLAGS_EXTRA = -pedantic -Wall -Wextra -Werror -Wno-unused-parameter -Os
+-CFLAGS := $(CFLAGS_EXTRA) $(INCLUDES) $(CFLAGS)
++CFLAGS := $(INCLUDES) $(CFLAGS)
+ 
+ LIBS != pkg-config --libs libnotify
+ LIBS := $(LIBS) -lm
+-LDFLAGS_EXTRA = -s
+-LDFLAGS := $(LDFLAGS_EXTRA) $(LDFLAGS)
+ 
+ all: $(NAME) $(NAME).1
+ 

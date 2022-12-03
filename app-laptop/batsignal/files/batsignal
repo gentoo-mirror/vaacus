@@ -1,0 +1,8 @@
+#!/sbin/openrc-run
+# Copyright 2022 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+name="batsignal daemon"
+description="Battery monitor daemon"
+command=/usr/bin/batsignal
+command_args="${batsignal_args}"
