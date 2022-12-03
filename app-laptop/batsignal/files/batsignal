@@ -6,3 +6,10 @@ name="batsignal daemon"
 description="Battery monitor daemon"
 command=/usr/bin/batsignal
 command_args="${batsignal_args}"
+pidfile="/run/batsignal.pid"
+
+start() {
+	ebegin "Starting batsignal daemon"
+	start-stop-daemon --start --exec "${command}" --pidfile "${pidfile}" --background
+	eend $?
+}
