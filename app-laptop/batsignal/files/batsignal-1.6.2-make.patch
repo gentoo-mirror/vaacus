@@ -1,16 +1,17 @@
 diff --git a/Makefile b/Makefile
-index 7ea761d..2e63e1b 100644
+index 7ea761d..acebce8 100644
 --- a/Makefile
 +++ b/Makefile
-@@ -15,21 +15,16 @@ CUT = cut
+@@ -15,7 +15,7 @@ CUT = cut
  
  VERSION != $(GREP) VERSION version.h | $(CUT) -d \" -f2
  
 -PREFIX = /usr/local
--
++PREFIX = /usr
+ 
  MANPREFIX.$(PREFIX)=$(PREFIX)/share/man
  MANPREFIX./usr/local=/usr/local/man
- MANPREFIX.=/usr/share/man
+@@ -23,13 +23,10 @@ MANPREFIX.=/usr/share/man
  MANPREFIX=$(MANPREFIX.$(PREFIX))
  
  INCLUDES != pkg-config --cflags libnotify
