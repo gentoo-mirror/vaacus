@@ -1,3 +1,4 @@
+app-laptop/batsignal 1.6.2: Lightweight battery daemon written in C
 app-laptop/system76-kbd 1.0.1: System76 keyboard leds daemon.
 app-misc/activate-linux 1.0.0: The "Activate Windows" watermark ported to Linux with Xlib and cairo in C.
 app-misc/barva 0.5 0.7.0 9999: An audio visualizer that pulses the background of your terminal.
