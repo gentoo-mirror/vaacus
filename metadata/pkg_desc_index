@@ -10,7 +10,7 @@ dev-embedded/mcuxpressoide-bin 11.6.1-r8255: The MCUXpresso IDE.
 dev-python/borb 2.0.24: borb is a library for reading, creating and manipulating PDF files in python.
 dev-python/docstring-to-markdown 0.10: 
 dev-python/halo 9999: Beautiful spinners for terminal, IPython and Jupyter
-dev-python/jedi-language-server 0.37.0: A Python language server exclusively for Jedi.
+dev-python/jedi-language-server 0.37.0 0.40.0: A Python language server exclusively for Jedi.
 dev-python/log-symbols 0.0.14: Colored symbols for various log levels for Python
 dev-python/mplcyberpunk 0.4.0: Utilities for the visualization, and visual analysis, of financial data
 dev-python/mplfinance 0.12: Utilities for the visualization, and visual analysis, of financial data
