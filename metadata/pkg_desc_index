@@ -39,7 +39,6 @@ media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client
 net-analyzer/evil-winrm 3.4: The ultimate WinRM shell for hacking/pentesting
 net-analyzer/ignorant 9999: ignorant allows you to check if a phone number is used on different sites
 net-fs/httpdirfs 1.2.4: Filesystem to mount HTTP directory listings, with a permanent cache
-net-im/cinny-bin 2.2.2 2.2.3: Yet another matrix client for desktop
 net-im/cinny-desktop-bin 2.2.2 2.2.3: Yet another matrix client for desktop
 net-misc/xmrig 6.17.0: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2 CPU/GPU miner
 net-misc/xmrig-cuda 6.17.0: NVIDIA CUDA plugin for XMRig miner
