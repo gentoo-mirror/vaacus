@@ -1,0 +1,13 @@
+BDEPEND=>=dev-lang/go-1.18 app-arch/unzip
+DEFINED_PHASES=compile install unpack
+DESCRIPTION=A terminal based Matrix client written in Go.
+EAPI=8
+HOMEPAGE=https://maunium.net/go/gomuks/
+INHERIT=go-module
+KEYWORDS=~amd64
+LICENSE=AGPL-3
+RESTRICT=strip
+SLOT=0
+SRC_URI=https://github.com/tulir/gomuks/archive/refs/tags/v0.3.0.tar.gz -> gomuks-0.3.0.tar.gz https://azaleth.xyz/dist/gomuks-0.3.0-deps.tar.xz
+_eclasses_=go-module	75029f071ebc843223233ab1b0a2d4a5
+_md5_=d2356dd9f3b4b47af8263acb4f87cdff
