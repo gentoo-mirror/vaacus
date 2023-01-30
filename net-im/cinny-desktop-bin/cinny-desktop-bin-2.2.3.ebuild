@@ -7,7 +7,7 @@ inherit unpacker desktop xdg
 
 DESCRIPTION="Yet another matrix client for desktop"
 HOMEPAGE="https://cinny.in/"
-SRC_URI="https://github.com/cinnyapp/cinny-desktop/releases/download/v${PV}/Cinny_desktop-x86_64.deb"
+SRC_URI="https://github.com/cinnyapp/cinny-desktop/releases/download/v${PV}/Cinny_desktop-x86_64.deb -> ${P}.deb"
 
 LICENSE="MIT"
 SLOT="0"
