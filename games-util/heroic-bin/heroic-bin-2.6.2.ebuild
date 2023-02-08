@@ -26,6 +26,13 @@ src_install() {
 	find
 	insinto /opt/
 	doins -r opt/Heroic
+
+	exeinto /opt/Heroic
+	doexe opt/Heroic/heroic
+
+	exeinto /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/
+	doexe opt/Heroic/resources/app.asar.unpacked/build/bin/linux/*
+
 	domenu usr/share/applications/heroic.desktop
 	dodoc usr/share/doc/heroic/changelog.gz
 
