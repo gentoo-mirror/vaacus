@@ -28,11 +28,9 @@ src_install() {
 	doins -r opt/Heroic
 
 	exeinto /opt/Heroic
-	rm "${D}/opt/Heroic/heroic"
 	doexe opt/Heroic/heroic
 
 	exeinto /opt/Heroic/resources/app.asar.unpacked/build/bin/linux/
-	rm "${D}/opt/Heroic/resources/app.asar.unpacked/build/bin/linux/*"
 	doexe opt/Heroic/resources/app.asar.unpacked/build/bin/linux/*
 
 	domenu usr/share/applications/heroic.desktop
