@@ -33,6 +33,8 @@ src_install() {
 	dolib.so usr/lib/*
 	rm -r usr/lib
 	doins -r opt usr
+	chmod +x ${D}/usr/local/${MY_P}/ide/mcuxpressoide
+	chmod +x ${D}/usr/local/${MY_P}/ide/jre/bin/*
 }
 
 pkg_postinst() {
