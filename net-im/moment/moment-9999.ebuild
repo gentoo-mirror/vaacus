@@ -15,6 +15,8 @@ KEYWORDS=""
 IUSE="X"
 
 DEPEND="
+	dev-python/hsluv
+
 	>=dev-python/pillow-7.0.0
 	>=dev-python/aiofiles-0.4.0
 	>=dev-python/appdirs-1.4.4
