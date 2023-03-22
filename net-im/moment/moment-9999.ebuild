@@ -19,6 +19,7 @@ DEPEND="
 	dev-python/redbaron
 	dev-python/plyer
 	dev-python/simpleaudio
+	dev-python/pymediainfo
 
 	>=dev-python/pillow-7.0.0
 	>=dev-python/aiofiles-0.4.0
