@@ -13,7 +13,7 @@ HOMEPAGE="
 "
 SRC_URI="https://github.com/kivy/${PN}/releases/download/${PV}/${P}.tar.gz"
 
-LICENSE=""
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 
