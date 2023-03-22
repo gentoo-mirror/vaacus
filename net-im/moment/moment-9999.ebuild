@@ -20,6 +20,8 @@ DEPEND="
 	dev-python/plyer
 	dev-python/simpleaudio
 	dev-python/pymediainfo
+	dev-python/html-sanitizer
+	dev-python/watchgod
 
 	>=dev-python/pillow-7.0.0
 	>=dev-python/aiofiles-0.4.0
