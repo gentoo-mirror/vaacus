@@ -1,6 +1,6 @@
 BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
 DEFINED_PHASES=configure install unpack
-DEPEND=>=dev-python/pillow-7.0.0 >=dev-python/aiofiles-0.4.0 >=dev-python/appdirs-1.4.4 >=media-gfx/cairosvg-2.4.2 >=dev-python/filetype-1.0.7 dev-libs/olm dev-qt/qtcore:5 dev-qt/qtdeclarative:5 dev-qt/qtquickcontrols2:5 dev-qt/qtsvg:5 dev-qt/qtgraphicaleffects:5 dev-qt/qtimageformats:5 X? ( x11-libs/libX11 x11-libs/libXScrnSaver ) dev-python/pyotherside media-libs/libjpeg-turbo sys-libs/zlib media-libs/tiff media-libs/libwebp media-libs/openjpeg media-libs/libmediainfo
+DEPEND=dev-python/hsluv dev-python/redbaron >=dev-python/pillow-7.0.0 >=dev-python/aiofiles-0.4.0 >=dev-python/appdirs-1.4.4 >=media-gfx/cairosvg-2.4.2 >=dev-python/filetype-1.0.7 dev-libs/olm dev-qt/qtcore:5 dev-qt/qtdeclarative:5 dev-qt/qtquickcontrols2:5 dev-qt/qtsvg:5 dev-qt/qtgraphicaleffects:5 dev-qt/qtimageformats:5 X? ( x11-libs/libX11 x11-libs/libXScrnSaver ) dev-python/pyotherside media-libs/libjpeg-turbo sys-libs/zlib media-libs/tiff media-libs/libwebp media-libs/openjpeg media-libs/libmediainfo
 DESCRIPTION=A Matrix client; forked from Mirage.
 EAPI=8
 HOMEPAGE=https://mx-moment.xyz/
@@ -8,7 +8,7 @@ INHERIT=git-r3 qmake-utils
 IUSE=X
 LICENSE=LGPL-3
 PROPERTIES=live
-RDEPEND=>=dev-python/pillow-7.0.0 >=dev-python/aiofiles-0.4.0 >=dev-python/appdirs-1.4.4 >=media-gfx/cairosvg-2.4.2 >=dev-python/filetype-1.0.7 dev-libs/olm dev-qt/qtcore:5 dev-qt/qtdeclarative:5 dev-qt/qtquickcontrols2:5 dev-qt/qtsvg:5 dev-qt/qtgraphicaleffects:5 dev-qt/qtimageformats:5 X? ( x11-libs/libX11 x11-libs/libXScrnSaver ) dev-python/pyotherside media-libs/libjpeg-turbo sys-libs/zlib media-libs/tiff media-libs/libwebp media-libs/openjpeg media-libs/libmediainfo
+RDEPEND=dev-python/hsluv dev-python/redbaron >=dev-python/pillow-7.0.0 >=dev-python/aiofiles-0.4.0 >=dev-python/appdirs-1.4.4 >=media-gfx/cairosvg-2.4.2 >=dev-python/filetype-1.0.7 dev-libs/olm dev-qt/qtcore:5 dev-qt/qtdeclarative:5 dev-qt/qtquickcontrols2:5 dev-qt/qtsvg:5 dev-qt/qtgraphicaleffects:5 dev-qt/qtimageformats:5 X? ( x11-libs/libX11 x11-libs/libXScrnSaver ) dev-python/pyotherside media-libs/libjpeg-turbo sys-libs/zlib media-libs/tiff media-libs/libwebp media-libs/openjpeg media-libs/libmediainfo
 SLOT=0
 _eclasses_=git-r3	c57c50c922e121043788de0b40ada60a	toolchain-funcs	6001248ef162a5fa2a21ce132a212f6b	multilib	5ca4e49abed8e3a2f7b56920eadee157	qmake-utils	59420c906278d16deaaa629f9d115707
-_md5_=aa1a6e213ac45a92e62169bbcdd3740a
+_md5_=e78d787e43589b7596a1058e615e1b53
