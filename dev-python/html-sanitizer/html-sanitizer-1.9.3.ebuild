@@ -7,7 +7,7 @@ DISTUTILS_USE_PEP517=setuptools
 PYTHON_COMPAT=( python3_10 )
 inherit distutils-r1
 
-DESCRIPTION=""
+DESCRIPTION="Allowlist-based HTML cleaner"
 HOMEPAGE="
 	https://pypi.org/project/html-sanitizer/
 "
