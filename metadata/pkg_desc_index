@@ -12,6 +12,7 @@ dev-python/borb 2.0.24: borb is a library for reading, creating and manipulating
 dev-python/docstring-to-markdown 0.10: 
 dev-python/halo 9999: Beautiful spinners for terminal, IPython and Jupyter
 dev-python/hsluv 5.0.3: Python implementation of HSLuv (revision 4)
+dev-python/html-sanitizer 1.9.3: Allowlist-based HTML cleaner
 dev-python/jedi-language-server 0.37.0 0.40.0: A Python language server exclusively for Jedi.
 dev-python/jupytext 1.14.5: 
 dev-python/log-symbols 0.0.14: Colored symbols for various log levels for Python
@@ -21,6 +22,7 @@ dev-python/plyer 2.1.0: Plyer is a platform-independent Python wrapper for platf
 dev-python/pygls 0.12.1: a pythonic generic language server (pronounced like "pie glass").
 dev-python/quarry 1.9.3: Python library that implements the Minecraft network protocol and data types
 dev-python/redbaron 0.9.2: A FST for python to make writing refactoring code a realistic task
+dev-python/simpleaudio 1.0.4: Simple, asynchronous audio playback for Python 3.
 dev-python/spinners 0.0.24: Spinners for terminal
 dev-python/xeuledoc 2.1: Fetch information about a public Google document.
 dev-ruby/fileutils 1.6.0: Several file utility methods for copying, moving, removing, etc.
