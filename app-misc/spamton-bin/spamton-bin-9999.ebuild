@@ -24,7 +24,7 @@ src_install() {
 	domenu desktop/Spamton.desktop
 	doicon -s 128 desktop/spamton.png
 	insinto /opt/spamton
-	doins Shimeji.jar
-	doins -r conf
+	doins Shimeji.jar titles.conf window.conf
+	doins -r conf img lib
 	dodoc README.md
 }
