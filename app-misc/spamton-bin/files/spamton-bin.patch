@@ -1,0 +1,12 @@
+diff --git a/spamton b/spamton
+index 2077418..edf598f 100755
+--- a/spamton
++++ b/spamton
+@@ -1,5 +1,4 @@
+ #!/bin/bash
+ 
+-export LD_LIBRARY_PATH="/usr/lib/jvm/java-8-openjdk-amd64/lib/amd64"
+-cd /usr/share/spamton
+-java -classpath Shimeji.jar -Xmx1000m com.group_finity.mascot.Main -Djava.util.logging.config.file=./conf/logging.properties --module-path /javafx-sdk-11.0.2/lib --add-modules=javafx.controls,javafx.fxml --add-exports java.base/jdk.internal.misc=ALL-UNNAMED 2&>/dev/null
++export LD_LIBRARY_PATH="/usr/lib/jvm/openjdk-8/lib/amd64"
++java -classpath /opt/spamton/Shimeji.jar -Xmx1000m com.group_finity.mascot.Main -Djava.util.logging.config.file=/opt/spamton/conf/logging.properties --module-path /javafx-sdk-11.0.2/lib --add-modules=javafx.controls,javafx.fxml --add-exports java.base/jdk.internal.misc=ALL-UNNAMED
