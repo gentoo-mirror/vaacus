@@ -1,0 +1,11 @@
+BDEPEND=>=dev-vcs/git-1.8.2.1[curl]
+DEFINED_PHASES=install unpack
+DESCRIPTION=[[Number 1 Rated Salesman1997]]
+EAPI=8
+HOMEPAGE=https://codeberg.org/thatonecalculator/spamton-linux-shimeji
+INHERIT=git-r3 desktop
+LICENSE=ZLIB
+PROPERTIES=live
+SLOT=0
+_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a	desktop	021728fdc1b03b36357dbc89489e0f0d
+_md5_=a9bc11bb839d1e61f5256bc871166762
