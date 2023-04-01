@@ -17,6 +17,7 @@ dev-python/html-sanitizer 1.9.3: Allowlist-based HTML cleaner
 dev-python/jedi-language-server 0.40.0: A Python language server exclusively for Jedi.
 dev-python/jupytext 1.14.5: 
 dev-python/log-symbols 0.0.14: Colored symbols for various log levels for Python
+dev-python/lsprotocol 2023.0.0-r1: 
 dev-python/mplcyberpunk 0.4.0: Utilities for the visualization, and visual analysis, of financial data
 dev-python/mplfinance 0.12: Utilities for the visualization, and visual analysis, of financial data
 dev-python/plyer 2.1.0: Plyer is a platform-independent Python wrapper for platform-dependent APIs.
