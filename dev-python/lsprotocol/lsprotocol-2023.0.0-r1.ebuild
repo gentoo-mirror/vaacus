@@ -13,7 +13,7 @@ HOMEPAGE="
 "
 SRC_URI="https://files.pythonhosted.org/packages/source/l/${PN}/${P}${PR/r/a}.tar.gz"
 
-LICENSE=""
+LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 
@@ -33,7 +33,5 @@ distutils_enable_tests pytest
 
 src_unpack() {
 	default
-	ls
 	mv ${P}${PR/r/a} ${P}
-	ls
 }
