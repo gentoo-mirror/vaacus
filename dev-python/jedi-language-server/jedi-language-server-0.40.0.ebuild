@@ -24,6 +24,7 @@ RDEPEND="
 	dev-python/pygls
 	dev-python/pydantic
 	dev-python/docstring-to-markdown
+	dev-python/lsprotocol
 "
 BDEPEND="
 	test? (
