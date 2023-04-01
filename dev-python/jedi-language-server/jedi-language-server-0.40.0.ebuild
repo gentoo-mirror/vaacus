@@ -17,6 +17,8 @@ LICENSE="MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 
+PATCHES=( "${FILESDIR}/${P}-stray-files.patch" )
+
 RDEPEND="
 	dev-python/jedi
 	dev-python/pygls
