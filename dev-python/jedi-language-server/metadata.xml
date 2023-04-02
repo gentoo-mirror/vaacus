@@ -5,4 +5,8 @@
     <email>thinkplex@riseup.net</email>
     <name>Quentin Lombardo</name>
   </maintainer>
+  <upstream>
+    <remote-id type="github">pappasam/jedi-language-server</remote-id>
+    <remote-id type="pypi">jedi-language-server</remote-id>
+  </upstream>
 </pkgmetadata>
