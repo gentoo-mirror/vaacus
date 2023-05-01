@@ -9,7 +9,6 @@ app-misc/uwufetch 1.6 1.7: A meme system info tool for Linux, based on nyan/uwu 
 app-office/facturio 9999: Un logiciel de gestion de factures.
 dev-embedded/mcuxpressoide-bin 11.6.1-r8255: The MCUXpresso IDE.
 dev-python/baron 0.9: Full Syntax Tree for python to make writing refactoring code a realist task
-dev-python/borb 2.0.24: borb is a library for reading, creating and manipulating PDF files in python.
 dev-python/docstring-to-markdown 0.10: 
 dev-python/halo 9999: Beautiful spinners for terminal, IPython and Jupyter
 dev-python/hsluv 5.0.3: Python implementation of HSLuv (revision 4)
@@ -48,7 +47,6 @@ media-sound/mopidy-mpd 3.3.0: Mopidy extension for controlling playback from MPD
 media-sound/mopidy-mpris 3.0.3: Mopidy extension for controlling Mopidy through the MPRIS D-Bus interface
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
 net-analyzer/evil-winrm 3.4: The ultimate WinRM shell for hacking/pentesting
-net-analyzer/ignorant 9999: ignorant allows you to check if a phone number is used on different sites
 net-fs/httpdirfs 1.2.4: Filesystem to mount HTTP directory listings, with a permanent cache
 net-im/cinny-desktop-bin 2.2.2 2.2.3 2.2.4 2.2.6: Yet another matrix client for desktop
 net-im/gomuks 0.3.0: A terminal based Matrix client written in Go.
