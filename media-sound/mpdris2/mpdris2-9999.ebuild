@@ -18,11 +18,11 @@ SLOT="0"
 KEYWORDS=""
 IUSE=""
 
-RDEPEND="${PYTHON_DEPS}
+DEPEND="${PYTHON_DEPS}
 	>=dev-python/dbus-python-0.80[$PYTHON_USEDEP]
 	>=dev-python/pygobject-3.28.3[$PYTHON_USEDEP]
 	dev-python/python-mpd2[$PYTHON_USEDEP]"
-DEPEND="${RDEPEND}"
+RDEPEND="${DEPEND}"
 
 DOCS="AUTHORS COPYING INSTALL NEWS README README.md"
 
