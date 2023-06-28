@@ -15,7 +15,7 @@ KEYWORDS="~amd64"
 
 DEPEND="
 	x11-libs/gtk+
-	net-libs/webkit-gtk
+	net-libs/webkit-gtk:4.1
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""
