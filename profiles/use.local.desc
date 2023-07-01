@@ -7,6 +7,7 @@ app-misc/uwufetch:viu - Use images instead of ASCII art.
 games-fps/anarch:csfml - CSFML renderer
 games-fps/anarch:tcc - Compile using the tiny c compiler
 games-fps/anarch:terminal - Terminal renderer (experimental)
+net-im/telodendria:cytoplasm - Install the cytoplasm library.
 net-misc/xmrig:cuda - Enable CUDA support
 net-misc/xmrig:donate - Set the default donation level to 1% instead of 0
 net-misc/xmrig:hwloc - Use sys-apps/hwloc for CPU affinity support
