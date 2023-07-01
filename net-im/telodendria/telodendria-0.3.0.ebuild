@@ -11,7 +11,7 @@ SRC_URI="https://telodendria.io/pub/v${PV}/${MY_PN}-v${PV}.tar.gz"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS=""
 
 IUSE="+cytoplasm static-libs"
 REQUIRED_USE="|| ( cytoplasm static-libs )"
