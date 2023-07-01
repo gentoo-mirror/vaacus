@@ -1,0 +1,45 @@
+diff --git a/Cytoplasm/make.sh b/Cytoplasm/make.sh
+index 82d18c2..d653ae8 100755
+--- a/Cytoplasm/make.sh
++++ b/Cytoplasm/make.sh
+@@ -122,10 +122,6 @@ recipe_docs() {
+             fi
+         fi
+     done
+-
+-    if which makewhatis 2>&1 > /dev/null; then
+-        makewhatis "${OUT}/man"
+-    fi
+ }
+ 
+ recipe_libs() {
+diff --git a/tools/bin/td b/tools/bin/td
+index 3f17520..94e9374 100644
+--- a/tools/bin/td
++++ b/tools/bin/td
+@@ -117,10 +117,6 @@ recipe_docs() {
+             fi
+         fi
+     done
+-
+-    if which makewhatis 2>&1 > /dev/null; then
+-        makewhatis "$(pwd)/man"
+-    fi
+ }
+ 
+ recipe_cytoplasm() {
+diff --git a/tools/env.sh b/tools/env.sh
+index 9f57642..c7c0d5e 100644
+--- a/tools/env.sh
++++ b/tools/env.sh
+@@ -27,10 +27,6 @@ if [ "$missing" -eq "1" ]; then
+     echo "may not work properly. Build missing tools with td."
+ fi
+ 
+-if which makewhatis 2>&1 > /dev/null; then
+-    makewhatis "$(pwd)/man"
+-fi
+-
+ export LD_LIBRARY_PATH="$(pwd)/Cytoplasm/out/lib"
+ export PATH="$(pwd)/tools/bin:$(pwd)/build/tools:$(pwd)/Cytoplasm/out/bin:$PATH"
+ export MANPATH="$(pwd)/man:$(pwd)/build/man:$(pwd)/Cytoplasm/out/man:$MANPATH"
