@@ -51,7 +51,7 @@ net-fs/httpdirfs 1.2.4: Filesystem to mount HTTP directory listings, with a perm
 net-im/cinny-desktop-bin 2.2.6: Yet another matrix client for desktop
 net-im/gomuks 0.3.0: A terminal based Matrix client written in Go.
 net-im/gtkcord4 0.0.6: GTK4 Discord client in Go, attempt #4.
-net-im/iamb 0.0.7: A Matrix chat client that uses Vim keybindings
+net-im/iamb 0.0.7 0.0.8: A Matrix chat client that uses Vim keybindings
 net-im/moment 9999: A Matrix client; forked from Mirage.
 net-im/telodendria 0.3.0: An open source Matrix homeserver implementation written from scratch in ANSI C.
 net-misc/xmrig 6.17.0: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2 CPU/GPU miner
