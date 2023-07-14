@@ -53,6 +53,7 @@ net-im/gomuks 0.3.0: A terminal based Matrix client written in Go.
 net-im/gtkcord4 0.0.6: GTK4 Discord client in Go, attempt #4.
 net-im/iamb 0.0.7 0.0.8: A Matrix chat client that uses Vim keybindings
 net-im/moment 9999: A Matrix client; forked from Mirage.
+net-im/schildichat-desktop-bin 1.11.30-r2: Matrix client / Element Desktop fork (binary package)
 net-im/telodendria 0.3.0: An open source Matrix homeserver implementation written from scratch in ANSI C.
 net-misc/xmrig 6.17.0: RandomX, CryptoNight, KawPow, AstroBWT, and Argon2 CPU/GPU miner
 net-misc/xmrig-cuda 6.17.0: NVIDIA CUDA plugin for XMRig miner
