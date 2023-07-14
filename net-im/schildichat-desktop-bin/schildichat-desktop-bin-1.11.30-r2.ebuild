@@ -77,7 +77,6 @@ src_install() {
 	fperms u+s /opt/SchildiChat/chrome-sandbox
 
 	dosym ../../opt/SchildiChat/${MY_PN} /usr/bin/${MY_PN}
-	dosym ${MY_PN} /usr/bin/riot-desktop
 }
 
 pkg_postinst() {
