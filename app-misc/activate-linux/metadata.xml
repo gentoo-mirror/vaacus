@@ -5,5 +5,7 @@
     <email>thinkplex@riseup.net</email>
     <name>Quentin Lombardo</name>
   </maintainer>
-  <remote-id type="github">MrGlockenspiel/activate-linux</remote-id>
+  <upstream>
+    <remote-id type="github">MrGlockenspiel/activate-linux</remote-id>
+  </upstream>
 </pkgmetadata>
