@@ -1,4 +1,4 @@
-# Copyright 2022 Gentoo Authors
+# Copyright 2022-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=8
@@ -31,6 +31,10 @@ DEPEND="
 "
 RDEPEND="${DEPEND}"
 BDEPEND=""
+
+PATCHES=(
+	"${FILESDIR}"/${P}-makefile.diff
+)
 
 src_compile() {
 	export CFLAGS="-I${S}/src" backends="$(usev wayland) $(usex X "x11" "")" PREFIX="/usr"
