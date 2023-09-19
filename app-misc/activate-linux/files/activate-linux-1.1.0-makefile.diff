@@ -1,0 +1,13 @@
+diff --git a/Makefile b/Makefile
+index ef34bf2..85120ae 100644
+--- a/Makefile
++++ b/Makefile
+@@ -10,7 +10,7 @@ DESTDIR ?=
+ PREFIX ?= /usr/local
+ BINDIR ?= bin
+ 
+-MANDIR ?= $(PREFIX)/share/man
++MANDIR ?= $(DESTDIR)$(PREFIX)/share/man
+ 
+ # implemented backends: wayland x11 gdi
+ backends ?= wayland x11
