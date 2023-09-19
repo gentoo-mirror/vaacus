@@ -10,4 +10,4 @@ RDEPEND=X? ( x11-libs/cairo x11-libs/libXi x11-libs/libX11 x11-base/xorg-proto x
 REQUIRED_USE=|| ( X wayland )
 SLOT=0
 SRC_URI=https://github.com/MrGlockenspiel/activate-linux/archive/refs/tags/v1.1.0.tar.gz -> activate-linux-1.1.0.tar.gz
-_md5_=665e67a4fa1251f2959bc7e9d0abbe36
+_md5_=588967bbe4e33f2b314bc7ce8c781c19
