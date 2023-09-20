@@ -1,5 +1,5 @@
 diff --git a/Makefile b/Makefile
-index ef34bf2..85120ae 100644
+index ef34bf2..87e1558 100644
 --- a/Makefile
 +++ b/Makefile
 @@ -10,7 +10,7 @@ DESTDIR ?=
@@ -11,3 +11,22 @@ index ef34bf2..85120ae 100644
  
  # implemented backends: wayland x11 gdi
  backends ?= wayland x11
+@@ -122,14 +122,12 @@ $(BINARY): $(<<objects>>)
+ 	@$(CC) $(^) -o $(@) $(LDFLAGS)
+ 
+ install: $(BINARY)
+-	sudo install -Dm0755 $(BINARY) $(DESTDIR)$(PREFIX)/$(BINDIR)/$(BINARY)
+-	sudo install -Dm0644 activate-linux.1 $(MANDIR)/man1/activate-linux.1
+-	sudo mandb -q
++	 install -Dm0755 $(BINARY) $(DESTDIR)$(PREFIX)/$(BINDIR)/$(BINARY)
++	 install -Dm0644 activate-linux.1 $(MANDIR)/man1/activate-linux.1
+ 
+ uninstall:
+-	sudo $(RM) -f $(DESTDIR)$(PREFIX)/$(BINDIR)/$(BINARY)
+-	sudo $(RM) -f $(MANDIR)/man1/activate-linux.1
+-	sudo mandb -q
++	 $(RM) -f $(DESTDIR)$(PREFIX)/$(BINDIR)/$(BINARY)
++	 $(RM) -f $(MANDIR)/man1/activate-linux.1
+ 
+ appimage: $(BINARY)
+ 	curl -#L -O https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage
