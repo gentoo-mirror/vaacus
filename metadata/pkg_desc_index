@@ -7,6 +7,7 @@ app-misc/pipes-sh 1.3.0: Animated pipes terminal screensaver
 app-misc/spamton-bin 9999: [[Number 1 Rated Salesman1997]]
 app-misc/uwufetch 1.6 1.7: A meme system info tool for Linux, based on nyan/uwu trend on r/linuxmasterrace.
 app-office/facturio 9999: Un logiciel de gestion de factures.
+app-text/logseq-bin 0.9.18: A privacy-first, open-source platform for knowledge management and collaboration.
 dev-embedded/mcuxpressoide-bin 11.6.1-r8255: The MCUXpresso IDE.
 dev-python/baron 0.9: Full Syntax Tree for python to make writing refactoring code a realist task
 dev-python/docstring-to-markdown 0.10: 
