@@ -9,4 +9,4 @@ LICENSE=AGPL-3
 SLOT=0
 SRC_URI=https://github.com/logseq/logseq/releases/download/0.9.18/Logseq-linux-x64-0.9.18.zip -> logseq-bin-0.9.18.zip
 _eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d
-_md5_=3182b329a9048f103f2e855e97101e13
+_md5_=ed85600c592fca5d33c7a2d6f3619cb5
