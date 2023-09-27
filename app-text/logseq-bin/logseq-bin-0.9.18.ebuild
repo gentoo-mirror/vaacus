@@ -15,7 +15,9 @@ KEYWORDS="~amd64"
 
 RDEPEND=""
 DEPEND="${RDEPEND}"
-BDEPEND=""
+BDEPEND="
+	app-arch/unzip
+"
 
 src_unpack() {
 	default
