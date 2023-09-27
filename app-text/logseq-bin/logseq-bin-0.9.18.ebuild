@@ -25,7 +25,7 @@ src_unpack() {
 }
 
 src_install () {
-	insinto "/opt/${P}"
+	into "/opt/${P}"
 	doins -r *
 	dobin Logseq
 	dosym "${EPREFIX}/opt/${P}/Logseq" /usr/bin/logseq
