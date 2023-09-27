@@ -25,11 +25,10 @@ src_unpack() {
 }
 
 src_install () {
-	insinto "/opt/${P}"
+	insinto "/opt/${PN}"
 	doins -r *
-	into "/opt/${P}"
-	dobin Logseq
-	dosym "${EPREFIX}/opt/${P}/Logseq" /usr/bin/logseq
+	dosym "${EPREFIX}/opt/${PN}/Logseq" /usr/bin/logseq
 	domenu "${FILESDIR}/Logseq.desktop"
 	doicon -s 1024 "${FILESDIR}/logseq.png"
+	fperms +x "/opt/${P}/Logseq"
 }

@@ -2,6 +2,6 @@
 Name=Logseq
 StartupWMClass=logseq
 Comment=A privacy-first, open-source platform for knowledge management and collaboration.
-Exec=/opt/Logseq/Logseq
+Exec=/opt/logseq-bin/Logseq
 Icon=logseq
 Type=Application
