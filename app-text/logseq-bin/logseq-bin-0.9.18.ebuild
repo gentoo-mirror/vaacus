@@ -30,5 +30,5 @@ src_install () {
 	dosym "${EPREFIX}/opt/${PN}/Logseq" /usr/bin/logseq
 	domenu "${FILESDIR}/Logseq.desktop"
 	doicon -s 1024 "${FILESDIR}/logseq.png"
-	fperms +x "/opt/${P}/Logseq"
+	fperms +x "/opt/${PN}/Logseq"
 }
