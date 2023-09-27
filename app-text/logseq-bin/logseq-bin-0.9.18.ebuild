@@ -7,7 +7,7 @@ inherit desktop
 
 DESCRIPTION="A privacy-first, open-source platform for knowledge management and collaboration."
 HOMEPAGE="https://logseq.com/"
-SRC_URI="https://github.com/logseq/logseq/releases/download/0.9.18/Logseq-linux-x64-0.9.18.zip -> ${P}.zip"
+SRC_URI="https://github.com/logseq/logseq/releases/download/${PV}/Logseq-linux-x64-${PV}.zip -> ${P}.zip"
 
 LICENSE="AGPL-3"
 SLOT="0"
