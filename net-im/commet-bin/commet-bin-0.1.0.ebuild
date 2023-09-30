@@ -28,4 +28,5 @@ src_install() {
 	dosym "../../opt/${PN}/commet" /usr/bin/commet
 	newicon data/flutter_assets/assets/images/app_icon/app_icon_transparent.png commet.png
 	domenu "$FILESDIR/Commet.desktop"
+	fperms +x "/opt/${PN}/commet"
 }
