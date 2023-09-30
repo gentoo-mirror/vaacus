@@ -1,0 +1,11 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=A comfortable chat client, which respects your privacy. Secured with End to End Encryption. Powered by Matrix.
+EAPI=8
+HOMEPAGE=https://commet.chat/
+INHERIT=desktop
+KEYWORDS=~amd64
+LICENSE=AGPL-3
+SLOT=0
+SRC_URI=https://github.com/commetchat/commet/releases/download/v0.1.0/commet-linux-x64.tar.gz -> commet-bin-0.1.0.tar.gz
+_eclasses_=desktop	021728fdc1b03b36357dbc89489e0f0d
+_md5_=01dfb4066c278b314c339f1119b98f3c

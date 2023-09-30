@@ -51,6 +51,7 @@ media-video/jftui 0.6.2: Jellyfin Terminal User Interface
 net-analyzer/evil-winrm 3.4: The ultimate WinRM shell for hacking/pentesting
 net-fs/httpdirfs 1.2.4: Filesystem to mount HTTP directory listings, with a permanent cache
 net-im/cinny-desktop-bin 2.2.6: Yet another matrix client for desktop
+net-im/commet-bin 0.1.0: A comfortable chat client, which respects your privacy. Secured with End to End Encryption. Powered by Matrix.
 net-im/gomuks 0.3.0: A terminal based Matrix client written in Go.
 net-im/gtkcord4 0.0.6: GTK4 Discord client in Go, attempt #4.
 net-im/iamb 0.0.7 0.0.8: A Matrix chat client that uses Vim keybindings
