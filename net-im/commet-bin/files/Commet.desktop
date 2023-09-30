@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name=Commet
+StartupWMClass=commet
+Comment=A comfortable chat client, which respects your privacy.
+Exec=/opt/commet-bin/commet
+Icon=commet
+Type=Application
