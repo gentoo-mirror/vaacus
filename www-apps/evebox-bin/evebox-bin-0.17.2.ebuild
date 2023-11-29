@@ -29,5 +29,4 @@ src_install() {
 
 	insinto /etc/evebox
 	doins etc/evebox/evebox.yaml
-	doins -r lib/
 }
