@@ -24,6 +24,8 @@ src_install() {
 	dobin usr/bin/evebox
 	gzip -d usr/share/doc/evebox/*.gz
 	dodoc usr/share/doc/evebox/*
+	keepdir /var/lib/evebox
+	doinitd ${FILESDIR}/evebox
 
 	insinto /etc/evebox
 	doins etc/evebox/evebox.yaml

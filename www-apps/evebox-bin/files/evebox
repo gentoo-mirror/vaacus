@@ -5,7 +5,9 @@
 name="EveBox Server"
 command=/usr/bin/evebox
 command_args="server -c /etc/evebox/evebox.yaml"
-EVEBOX_DATA_DIRECTORY=/var/lib/evebox
+command_background="true"
+pidfile="/run/${RC_SVCNAME}.pid"
+export EVEBOX_DATA_DIRECTORY=/var/lib/evebox
 
 depend() {
 	need net
