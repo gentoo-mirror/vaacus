@@ -1,0 +1,12 @@
+#!/sbin/openrc-run
+# Copyright 2023 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+name="EveBox Server"
+command=/usr/bin/evebox
+command_args="server -c /etc/evebox/evebox.yaml"
+EVEBOX_DATA_DIRECTORY=/var/lib/evebox
+
+depend() {
+	need net
+}
