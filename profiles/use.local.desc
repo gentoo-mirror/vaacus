@@ -4,6 +4,7 @@
 
 app-misc/uwufetch:gpu - Use sys-apps/lshw to get GPU info.
 app-misc/uwufetch:viu - Use images instead of ASCII art.
+dev-python/flask-unsign:wordlist - Install the standalone wordlist component
 games-fps/anarch:csfml - CSFML renderer
 games-fps/anarch:tcc - Compile using the tiny c compiler
 games-fps/anarch:terminal - Terminal renderer (experimental)
