@@ -1,0 +1,26 @@
+From 8ba51fd18e2b0e49a5b197e76a225e212064ff49 Mon Sep 17 00:00:00 2001
+From: Thomas Bouve <crahan@n00.be>
+Date: Thu, 2 Nov 2023 15:25:17 +0100
+Subject: [PATCH] Add XDG_CONFIG_HOME support
+
+---
+ jwt_tool.py | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+diff --git a/jwt_tool.py b/jwt_tool.py
+index 9647dbe..b5be2cb 100644
+--- a/jwt_tool.py
++++ b/jwt_tool.py
+@@ -1884,7 +1884,11 @@ def printLogo():
+     if not args.bare:
+         printLogo()
+     try:
+-        path = os.path.expanduser("~/.jwt_tool")
++        xdg_config_home = os.environ.get("XDG_CONFIG_HOME", False)
++        if xdg_config_home:
++            path = os.path.expanduser(os.path.normpath(xdg_config_home + "/jwt_tool"))
++        else:
++            path = os.path.expanduser("~/.jwt_tool")
+         if not os.path.exists(path):
+             os.makedirs(path)
+     except:
