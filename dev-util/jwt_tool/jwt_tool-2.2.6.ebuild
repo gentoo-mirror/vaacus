@@ -21,6 +21,10 @@ RDEPEND="${PYTHON_DEPS}
 	$(python_gen_cond_dep 'dev-python/pycryptodome[${PYTHON_USEDEP}]')"
 BDEPEND="${RDEPEND}"
 
+PATCHES=(
+	"${FILESDIR}/${P}-xdg-config.patch"
+)
+
 src_prepare() {
 	default
 
