@@ -39,6 +39,7 @@ dev-ruby/logging 2.3.1: A flexible logging library for use in Ruby programs.
 dev-ruby/nori 2.6.0: XML to Hash translator
 dev-ruby/winrm 2.3.6: Ruby library for Windows Remote Management
 dev-ruby/winrm-fs 1.3.5: Ruby library for file system operations via Windows Remote Management
+dev-util/jwt_tool 2.2.6 9999: A toolkit for testing, tweaking and cracking JSON Web Tokens
 dev-util/sibs 9999: Simple Build System for Native Languages
 games-fps/anarch 1.0 9999: extremely small 90s-style Doom clone that runs everywhere
 games-rpg/blablaland-bin 1.2.2: Blablaland
