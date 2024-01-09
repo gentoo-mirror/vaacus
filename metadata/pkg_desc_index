@@ -54,6 +54,7 @@ media-sound/mopidy-mpd 3.3.0: Mopidy extension for controlling playback from MPD
 media-sound/mopidy-mpris 3.0.3: Mopidy extension for controlling Mopidy through the MPRIS D-Bus interface
 media-sound/mpdris2 9999: An implementation of the MPRIS 2 interface as a client for MPD
 media-video/jftui 0.6.2: Jellyfin Terminal User Interface
+net-analyzer/arsenal 1.1.0: Arsenal is just a quick inventory and launcher for hacking programs
 net-analyzer/evil-winrm 3.4: The ultimate WinRM shell for hacking/pentesting
 net-fs/httpdirfs 1.2.4: Filesystem to mount HTTP directory listings, with a permanent cache
 net-im/cinny-desktop-bin 2.2.6: Yet another matrix client for desktop
