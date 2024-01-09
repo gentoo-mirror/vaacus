@@ -4,4 +4,7 @@
 	<maintainer type="person">
 		<email>thinkplex@riseup.net</email>
 	</maintainer>
+    <upstream>
+       <remote-id type="pypi">pyfzf</remote-id>
+    </upstream>
 </pkgmetadata>
