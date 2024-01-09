@@ -48,6 +48,7 @@ games-util/heroic-bin 2.6.2: A Native GOG and Epic Games Launcher for Linux, Win
 gui-apps/lswt 1.0.4: list Wayland toplevels
 media-gfx/viu 1.3.0: Simple terminal image viewer written in Rust.
 media-libs/libcsfml 2.5: C bindings for SFML
+media-sound/cozy 9999: Listen to audio books on Linux
 media-sound/mopidy-funkwhale 1.1.0: Mopidy extension for playing music from jellyfin
 media-sound/mopidy-jellyfin 1.0.4: Mopidy extension for playing music from jellyfin
 media-sound/mopidy-mpd 3.3.0: Mopidy extension for controlling playback from MPD clients
