@@ -3,10 +3,10 @@
 
 EAPI=8
 
-DISTUTILS_USE_PEP517=poetry
+# DISTUTILS_USE_PEP517=poetry
 PYTHON_COMPAT=( python3_{10..12} )
 
-inherit pypi distutils-r1
+inherit distutils-r1
 
 DESCRIPTION="A text scroller for panels or terminals"
 HOMEPAGE="https://github.com/noctuid/zscroll"
