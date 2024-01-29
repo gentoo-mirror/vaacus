@@ -3,6 +3,8 @@
 <pkgmetadata>
   <maintainer type="person">
     <email>thinkplex@riseup.net</email>
-    <name>Quentin Lombardo</name>
   </maintainer>
+  <upstream>
+    <remote-id type="github">nerdypepper/dijo</remote-id>
+  </upstream>
 </pkgmetadata>
