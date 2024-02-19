@@ -3,7 +3,7 @@
 
 EAPI=8
 
-inherit go-module
+inherit go-module desktop
 
 DESCRIPTION="GTK client for Music Player Daemon (MPD) written in Go"
 HOMEPAGE="https://yktoo.com/en/software/ymuse/"
@@ -31,6 +31,7 @@ src_compile() {
 src_install() {
 	default
 	insinto /usr/share/
-	doins -r resources/*
+	doins -r resources/{i18n,metainfo,icons}
+	domenu resources/com.yktoo.ymuse.desktop
 	dobin ymuse
 }
