@@ -47,6 +47,7 @@ games-fps/anarch 1.0 9999: extremely small 90s-style Doom clone that runs everyw
 games-rpg/blablaland-bin 1.2.2: Blablaland
 games-util/heroic-bin 2.6.2: A Native GOG and Epic Games Launcher for Linux, Windows and Mac.
 gui-apps/lswt 1.0.4: list Wayland toplevels
+gui-apps/onagre 1.0.0: A general purpose application launcher for X and wayland inspired by rofi/wofi and alfred.
 media-gfx/viu 1.3.0: Simple terminal image viewer written in Rust.
 media-libs/libcsfml 2.5: C bindings for SFML
 media-sound/cozy 9999: Listen to audio books on Linux
