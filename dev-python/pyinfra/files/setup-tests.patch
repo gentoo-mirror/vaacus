@@ -1,0 +1,29 @@
+diff --git a/setup.cfg b/setup.cfg
+index 86210a7d..f7afb62e 100644
+--- a/setup.cfg
++++ b/setup.cfg
+@@ -22,6 +22,11 @@ application-import-names = pyinfra,pyinfra_cli,docs
+ whitelist = tests/words.txt
+ dictionaries=en_US,python,technical,django
+ 
++[options.packages.find]
++exclude =
++    tests
++    tests.*
++    docs
+ 
+ [coverage:report]
+ show_missing = true
+diff --git a/setup.py b/setup.py
+index 108c5939..c886bd13 100644
+--- a/setup.py
++++ b/setup.py
+@@ -111,7 +111,7 @@ if __name__ == "__main__":
+             "Documentation": "https://docs.pyinfra.com",
+             "GitHub": "https://github.com/Fizzadar/pyinfra",
+         },
+-        packages=find_packages(exclude=["tests", "docs"]),
++        packages=find_packages(exclude=["tests", "tests.*", "docs"]),
+         entry_points={
+             "console_scripts": ("pyinfra=pyinfra_cli.__main__:execute_pyinfra",),
+             "pyinfra.connectors": [
