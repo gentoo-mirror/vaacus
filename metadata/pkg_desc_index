@@ -12,6 +12,7 @@ app-text/logseq-bin 0.9.18: A privacy-first, open-source platform for knowledge 
 dev-embedded/mcuxpressoide-bin 11.6.1-r8255: The MCUXpresso IDE.
 dev-python/flask-unsign 1.2.0: Flask Unsign is a penetration testing utility that attempts to uncover a Flask server's secret key
 dev-python/flask-unsign-wordlist 2023.4: The following package is the standalone wordlist-only component to flask-unsign.
+dev-python/gevent 23.9.1: Coroutine-based network library
 dev-python/halo 9999: Beautiful spinners for terminal, IPython and Jupyter
 dev-python/html-sanitizer 1.9.3: Allowlist-based HTML cleaner
 dev-python/jupytext 1.14.5: 
@@ -21,6 +22,7 @@ dev-python/mplfinance 0.12: Utilities for the visualization, and visual analysis
 dev-python/plyer 2.1.0: Plyer is a platform-independent Python wrapper for platform-dependent APIs.
 dev-python/pyfzf 0.3.1: Python wrapper for junegunn's fuzzyfinder (fzf)
 dev-python/pygls 0.12.1: a pythonic generic language server (pronounced like "pie glass").
+dev-python/pyinfra 9999: pyinfra automates infrastructure using Python.
 dev-python/quarry 1.9.4: Python library that implements the Minecraft network protocol and data types
 dev-python/simpleaudio 1.0.4: Simple, asynchronous audio playback for Python 3.
 dev-python/spinners 0.0.24: Spinners for terminal
