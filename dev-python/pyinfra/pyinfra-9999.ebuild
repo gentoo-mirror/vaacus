@@ -5,7 +5,7 @@ EAPI=8
 
 PATCHES=( "${FILESDIR}/setup-tests.patch" )
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( pypy3 python3_12 )
+PYTHON_COMPAT=( python3_{9..11} )
 
 inherit distutils-r1 git-r3
 
@@ -17,7 +17,7 @@ LICENSE="MIT"
 SLOT="0"
 
 RDEPEND="
-	dev-python/gevent
+	dev-python/gevent[${PYTHON_USEDEP}]
 	dev-python/paramiko
 	dev-python/click
 	dev-python/jinja
