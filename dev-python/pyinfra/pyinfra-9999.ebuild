@@ -26,6 +26,7 @@ RDEPEND="
 	dev-python/typeguard
 	dev-python/distro
 	dev-python/typing-extensions
+	dev-python/configparser
 "
 #BDEPEND=""
 
