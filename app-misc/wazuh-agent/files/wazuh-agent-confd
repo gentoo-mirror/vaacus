@@ -1,0 +1,13 @@
+# init file : /etc/init.d/wazuh-agent
+
+# Wazuh agent user
+WA_USER="root"
+
+# Wazuh agent group
+WA_GROUP="root"
+
+# Wazuh Agent home
+WA_HOME="/var/ossec"
+
+# PID directory
+PID_DIR="/run/wazuh-agent"
