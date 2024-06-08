@@ -1,0 +1,25 @@
+#!/sbin/openrc-run
+# Copyright 2023 Gentoo Authors
+# Distributed under the terms of the GNU General Public License v2
+
+name="wazuh-agent daemon"
+description="Wazuh agent"
+
+depend() {
+	use net
+}
+
+start() {
+	ebegin "Starting Wazuh Manager ..."
+	/var/ossec/bin/wazuh-control start
+}
+
+stop() {
+	ebegin "Stopping Wazuh Manager ..."
+	/var/ossec/bin/wazuh-control stop
+}
+
+status() {
+	ebegin "Wazuh Manager status"
+	/var/ossec/bin/wazuh-control  status
+}
