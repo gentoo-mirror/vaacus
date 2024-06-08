@@ -15,8 +15,7 @@ LICENSE="GPL-2"
 SLOT="0"
 KEYWORDS="amd64"
 
-DEPEND="app-arch/rpm2targz
-acct-user/wazuh
+DEPEND="acct-user/wazuh
 acct-group/wazuh"
 RDEPEND="${DEPEND}"
 
