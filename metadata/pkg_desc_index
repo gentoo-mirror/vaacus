@@ -1,3 +1,5 @@
+acct-group/wazuh 1.0: Group for Wazuh
+acct-user/wazuh 1.0: User for Wazuh
 app-laptop/batsignal 1.6.2: Lightweight battery daemon written in C
 app-laptop/poweralertd 0.2.0: Gives you power notifications as you need them. Just run it.
 app-laptop/system76-kbd 1.0.1: System76 keyboard leds daemon.
@@ -7,6 +9,7 @@ app-misc/dijo 0.2.7: Scriptable, curses-based, digital habit tracker
 app-misc/pipes-sh 1.3.0: Animated pipes terminal screensaver
 app-misc/spamton-bin 9999: [[Number 1 Rated Salesman1997]]
 app-misc/uwufetch 1.6 1.7: A meme system info tool for Linux, based on nyan/uwu trend on r/linuxmasterrace.
+app-misc/wazuh-agent 4.7.5: Wazuh Agent
 app-office/facturio 9999: Un logiciel de gestion de factures.
 app-text/logseq-bin 0.9.18: A privacy-first, open-source platform for knowledge management and collaboration.
 dev-embedded/mcuxpressoide-bin 11.6.1-r8255: The MCUXpresso IDE.
