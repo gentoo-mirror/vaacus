@@ -5,7 +5,7 @@ EAPI=8
 
 PATCHES=( "${FILESDIR}/setup-tests.patch" )
 DISTUTILS_USE_PEP517=setuptools
-PYTHON_COMPAT=( python3_{9..11} )
+PYTHON_COMPAT=( python3_{9..13} )
 
 inherit distutils-r1 git-r3
 

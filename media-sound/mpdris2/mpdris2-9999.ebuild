@@ -1,8 +1,8 @@
-# Copyright 2020-2021 Gentoo Authors
+# Copyright 2020-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
-PYTHON_COMPAT=( python3_{10..11})
+PYTHON_COMPAT=( python3_{10..13})
 
 inherit python-r1 autotools git-r3
 
@@ -15,8 +15,6 @@ REQUIRED_USE="${PYTHON_REQUIRED_USE}"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS=""
-IUSE=""
 
 DEPEND="${PYTHON_DEPS}
 	>=dev-python/dbus-python-0.80[$PYTHON_USEDEP]
