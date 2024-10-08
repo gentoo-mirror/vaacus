@@ -8,5 +8,5 @@ KEYWORDS=~amd64
 LICENSE=AGPL-3
 SLOT=0
 SRC_URI=https://github.com/logseq/logseq/releases/download/0.9.18/Logseq-linux-x64-0.9.18.zip -> logseq-bin-0.9.18.zip
-_eclasses_=desktop	56973babb9c5f19cab0eeb53ece644c6
+_eclasses_=desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed
 _md5_=ed85600c592fca5d33c7a2d6f3619cb5
