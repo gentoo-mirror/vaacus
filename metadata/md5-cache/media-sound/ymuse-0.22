@@ -11,5 +11,5 @@ RDEPEND=x11-libs/gtk+:3
 RESTRICT=strip
 SLOT=0
 SRC_URI=https://github.com/yktoo/ymuse/archive/v0.22.tar.gz -> ymuse-0.22.tar.gz https://azaleth.xyz/dist/ymuse-0.22-deps.tar.xz
-_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	df32d29550d40a92da723d3b8e17b467	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed
+_eclasses_=multiprocessing	1e32df7deee68372153dca65f4a7c21f	toolchain-funcs	f9d71a6efe9d083aec750dd13968e169	flag-o-matic	e8de74bac929ba17427e740e95707d00	go-env	0e2babf96e7d0b045fc07ad199eb2399	go-module	191a27261275fc3bff7dd7482361b5d6	desktop	3a72ffe0d8e1dd73af3a1c8c15a59fed
 _md5_=77bc0230478a77d0cf57b9dcf0894d3c
